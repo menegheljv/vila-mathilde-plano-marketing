@@ -126,6 +126,45 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 .flip:hover .face{box-shadow:9px 14px 0 var(--green2)}.flip:hover{translate:0 -8px;scale:1.03}.flip{transition:translate .35s,scale .35s}
 .bar{transition:translate .3s}.bar:hover{translate:6px 0}
 @media (prefers-reduced-motion:reduce){.card::after{display:none}}
+
+/* quadros brancos e maiores */
+.card,.sq,.node,.face{--ink:#1d2b20;--muted:#55624f;--green:#2f5d3a;--green2:#4f8a5b;--earth:#6e5233;--alert:#9a3a22;--bd:#2f5d3a;--line:#c6d3c0;--moss:#e6efe0;--onG:#ffffff;--card:#ffffff;color:var(--ink)}
+.card,.sq,.node,.face{background:#fff}
+.back{background:var(--green)!important;color:#fff}
+.node.end{background:var(--green)}
+.card{padding:30px 34px;border-radius:6px}
+.card h3{font-size:30px;margin-bottom:12px}
+.card p,.card li{font-size:21px;line-height:1.4}
+.card .small{font-size:16px}
+.big{font-size:78px}
+.grid{gap:28px}
+.card:hover,.card.on{background:#fff;box-shadow:10px 16px 0 var(--green2)}
+.sq{padding:16px 24px;border-radius:6px;border-top-width:7px}
+.sq h3{font-size:25px}.sq li{font-size:16.5px;margin:2px 0}.sq .hint{font-size:16px}
+.sqS,.sqW,.sqO,.sqT{background:#fff}
+.sqS{border-top-color:#4f8a5b}.sqW{border-top-color:#8a6d45}.sqO{border-top-color:#3f7f86}.sqT{border-top-color:#9a3a22}
+.node{padding:16px 22px;font-size:20px;min-width:170px}.node small{font-size:15px}
+.face{padding:34px}.face h3{font-size:30px}.face p{font-size:21px}.flip{height:410px}
+.back p{font-size:25px}
+.hist p{font-size:17px}
+
+/* bilhete: cantos redondos, entalhes, canhoto tracejado, letras verdes */
+.card,.sq,.node,.face{--ink:#1f4a2c;--muted:#4d6a50;--bd:#2f5d3a}
+.slide{counter-reset:tk}
+.card{counter-increment:tk;border-radius:22px;padding:42px 34px 26px;
+  background-color:#fff;background-image:radial-gradient(circle 14px at 0 50%,#10261a 97%,transparent 100%),radial-gradient(circle 14px at 100% 50%,#10261a 97%,transparent 100%);outline-offset:5px}
+.card::before{content:"BILHETE Nº " counter(tk,decimal-leading-zero) "";position:absolute;top:13px;left:34px;right:34px;font-family:'Special Elite',monospace;font-size:12px;letter-spacing:.14em;color:var(--green2);padding-bottom:7px;border-bottom:2px dashed var(--line);white-space:nowrap;overflow:hidden}
+.card h3{border-bottom:0;padding-bottom:0;color:var(--green)}
+.card:hover,.card.on{background-color:#fff}
+.sq{border-radius:20px;background-image:radial-gradient(circle 13px at 0 50%,#10261a 97%,transparent 100%),radial-gradient(circle 13px at 100% 50%,#10261a 97%,transparent 100%)}
+.sq h3{color:var(--green)}
+.face{border-radius:22px}
+.node{border-radius:16px}
+.tab{border-radius:14px}.kicker{border-radius:8px}.tag{border-radius:8px}
+.track{border-radius:99px}
+.sq{padding:12px 24px}.sq li{font-size:15.5px}
+.panel.card p,.panel.card li{font-size:20px}.panel.card li{margin:3px 0}
+.card p{color:var(--ink)}
 @media print{html,body{overflow:visible}#nav,#rail,#train{display:none}}
 </style>
 </head>
@@ -236,7 +275,7 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
     <div class="st" data-y="2010"><p>Restaurada, vira centro cultural, com exposições e loja de artesanato.</p></div>
     <div class="st" data-y="Hoje"><p>Os trilhos viram caminho a pé até o túnel. A cachoeira tem entrada gratuita.</p></div>
   </div>
-  <div class="card reveal" style="margin-top:26px;background:var(--moss)"><p><b>A ideia do plano:</b> a ferrovia deu origem a Matilde e hoje é o maior símbolo do lugar. O trem será o fio condutor: colocar a Vila Mathilde de volta nos trilhos, da primeira mensagem à volta do hóspede.</p></div>
+  "><p><b>A ideia do plano:</b> a ferrovia deu origem a Matilde e hoje é o maior símbolo do lugar. O trem será o fio condutor: colocar a Vila Mathilde de volta nos trilhos, da primeira mensagem à volta do hóspede.</p></div>
 </section>
 
 <!-- 5 CONCORRENCIA -->
@@ -248,7 +287,7 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
     <div class="card"><h3>Santa Teresa</h3><div class="bar"><span>Faixas típicas<b>R$ 150 a 500+</b></span><div class="track"><div class="fillb hi" data-w="55"></div></div></div><p class="small">Eventos lotam a cidade e esgotam as vagas.</p></div>
     <div class="card"><h3>Buenos Aires</h3><div class="bar"><span>Diária de referência<b>cerca de R$ 250</b></span><div class="track"><div class="fillb hi" data-w="45"></div></div></div><p class="small">Investimento pesado e tendência de alta de preço.</p></div>
   </div>
-  <div class="card reveal" style="margin-top:20px;background:var(--moss)"><p><b>Matilde:</b> cachoeira gratuita e custo de viagem abaixo da região. <span class="small">(Confirmar a tarifa atual da pousada antes de divulgar valores.)</span></p></div>
+  "><p><b>Matilde:</b> cachoeira gratuita e custo de viagem abaixo da região. <span class="small">(Confirmar a tarifa atual da pousada antes de divulgar valores.)</span></p></div>
 </section>
 
 <!-- 6 SWOT -->
@@ -277,7 +316,7 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
     <div class="card reveal"><h3>Como decide</h3><ul>
       <li>Google e indicação de amigo ou filho</li><li>WhatsApp e Facebook mais que Instagram</li><li>Quer falar com uma pessoa antes de reservar</li></ul></div>
   </div>
-  <div class="card" style="margin-top:14px;background:var(--moss)"><p><b>Frase dele:</b> "Quero conhecer a cachoeira sem pressa e dormir em paz."</p></div>
+  "><p><b>Frase dele:</b> "Quero conhecer a cachoeira sem pressa e dormir em paz."</p></div>
   <p class="small" style="margin-top:10px">Persona proposta como hipótese, a validar com o dono da pousada.</p>
 </section>
 
@@ -300,9 +339,9 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 <section class="slide" style="align-items:flex-start">
   <div class="kicker">Posicionamento</div>
   <h2>Uma mensagem simples que transmite sossego</h2>
-  <div class="card reveal" style="background:var(--green);border:0;margin:18px 0 22px;padding:34px 40px">
-    <p style="color:var(--bg);font-family:'Bootzy TM','Fraunces',Georgia,serif;font-size:50px;line-height:1.15">Venha descansar. Matilde espera por você.</p>
-    <p style="color:var(--bg);opacity:.85;font-size:20px;margin-top:14px">Mensagem simples e calma. Variações: "Aqui o dia passa devagar." e "O trem da pressa não passa por Matilde. Desça e fique."</p>
+  <div class="card reveal" style="margin:18px 0 22px;padding:38px 46px">
+    <p style="color:var(--green);font-family:'Bootzy TM','Fraunces',Georgia,serif;font-size:50px;line-height:1.15">Venha descansar. Matilde espera por você.</p>
+    <p style="color:var(--muted);font-size:21px;margin-top:14px">Mensagem simples e calma. Variações: "Aqui o dia passa devagar." e "O trem da pressa não passa por Matilde. Desça e fique."</p>
   </div>
   <div class="grid g3" style="width:100%">
     <div class="card"><h3>Linguagem</h3><p>Acolhedora, simples e direta. "A gente te espera."</p></div>
