@@ -10,11 +10,11 @@ Tudo abaixo é para colar nas cópias das planilhas. Os dados vêm do briefing e
 ### FORÇAS (internas)
 1. Reputação alta: Google 4,7 (123 avaliações) e 9,2 a 9,5 nos metabuscadores
 2. Só 6 quartos: ambiente reservado, silencioso e sem lotação
-3. Atendimento familiar dos anfitriões, elogiado pelo nome nas avaliações
-4. Café da manhã regional, com produtos locais e adaptação para dieta sem glúten e sem lactose
-5. Jardim com orquídeas e aves, rede em cada quarto, piscina e área social para petiscos
+3. Experiência para o consumidor: atendimento familiar, café da manhã regional, rede e jardim com orquídeas
+4. Preço: custo de viagem e de hospedagem menor que o da região
+5. Piscina e área social para petiscos e churrasco
 6. Estacionamento próprio, no centrinho, perto da estação e da cachoeira
-7. Quartos descritos como escuros e silenciosos, com limpeza nota 4,9 no TripAdvisor
+7. Quartos escuros e silenciosos, limpeza nota 4,9 no TripAdvisor
 
 ### FRAQUEZAS (internas)
 1. Presença digital contraditória: bio do Instagram diz "A VENDA EM MATILDE/ES"
@@ -26,22 +26,22 @@ Tudo abaixo é para colar nas cópias das planilhas. Os dados vêm do briefing e
 7. Público atual é de excursão de ônibus, que vai e volta no mesmo dia e não pernoita
 
 ### OPORTUNIDADES (externas)
-1. Mudança política: a gestão atual tornou gratuita de novo a entrada da cachoeira de Matilde (17/03/2025), com escadarias, bancos e sinalização melhorados
-2. Viagem e Turismo (jun/2025) destacou Alfredo Chaves: visibilidade nacional gratuita
-3. Aposentado viaja fora de feriado e fim de semana, o que ajuda a encher o "vale" (março a maio e setembro a novembro)
-4. Turismo de montanha capixaba em crescimento, com demanda recorrente e de carro próprio
-5. Festival de Inverno (19 a 21/06) e reforma da estação de 1910, com cinema e museu
-6. Excursões que já chegam a Matilde: base de leads para converter o visitante de um dia em hóspede
-7. Custo de viagem em Matilde menor que o da região: diárias e gastos abaixo de Pedra Azul e Santa Teresa, argumento forte para aposentado com renda fixa
+1. Mudança política: a gestão atual tornou gratuita de novo a entrada da cachoeira (17/03/2025)
+2. Destaque na Viagem e Turismo (jun/2025)
+3. Aposentado viaja fora de feriado e enche o vale de meio de semana
+4. Pousadas de montanha em alta agora, com o turismo capixaba em crescimento
+5. Festival de Inverno e reforma da estação de 1910
+6. Excursões que já chegam a Matilde: base de leads para converter visitante de um dia em hóspede
+7. Região ainda pouco movimentada: sem congestionamento, ideal para quem busca sossego
 
 ### AMEAÇAS (externas)
-1. Pedra Azul e Santa Teresa, destinos já consolidados e muito divulgados
-2. Buenos Aires (Guarapari): a 54 km de Vitória, com investimento pesado
-3. Concorrentes diretos em Matilde com ótimas notas: Casa Matilde (9,4 a 9,6) e Fora do Ar (9,2)
-4. Airbnb de casas para grupos e famílias no próprio distrito
-5. Dependência de clima e chuva para o atrativo principal (cachoeira)
-6. Percepção de "pousada fechada ou à venda" afastando quem pesquisa
-7. Matilde não fica na rota de nenhuma grande rodovia: ninguém passa por acaso, o turista precisa sair da BR-101 e entrar em Alfredo Chaves de propósito (mais 18 km de ES-383, sem transporte público)
+1. Pedra Azul e Santa Teresa, destinos consolidados
+2. Investimento massivo em outras regiões turísticas, como Buenos Aires (Guarapari)
+3. Casa Matilde (9,4 a 9,6) e Fora do Ar (9,2), concorrentes diretos com notas altas
+4. Airbnb de casas para grupos e famílias no distrito
+5. Dependência de clima e chuva para a cachoeira
+6. Percepção de pousada fechada ou à venda
+7. Matilde fora da rota de qualquer grande rodovia: é preciso sair da BR-101 e entrar em Alfredo Chaves de propósito
 
 ---
 
