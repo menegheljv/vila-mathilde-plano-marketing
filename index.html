@@ -188,6 +188,24 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 .bar:hover{translate:0 0}
 .card:nth-child(odd),.card:nth-child(even){rotate:0deg}
 .tag{rotate:0deg}
+
+/* linha do tempo em destaque */
+.tlx{position:relative;height:380px;margin-top:4px}
+.tlx .line{position:absolute;left:0;right:0;top:182px;height:16px;background:linear-gradient(var(--ink),var(--ink)) 0 0/100% 4px no-repeat,repeating-linear-gradient(90deg,var(--earth) 0 7px,transparent 7px 22px) 0 7px/100% 9px no-repeat}
+.tlx .runner{position:absolute;top:140px;left:0;width:104px;color:var(--green);z-index:3}
+.active .tlx .runner{animation:run 5.2s cubic-bezier(.45,0,.35,1) forwards}
+@keyframes run{to{left:calc(100% - 104px)}}
+.stn{--ink:#1f4a2c;--green:#2f5d3a;position:absolute;left:var(--x);width:252px;translate:-50% 0;background:#fff;border-radius:18px;padding:12px 18px 14px;box-shadow:6px 7px 0 var(--green2);opacity:0}
+.stn.up{bottom:238px}.stn.down{top:238px}
+.stn b{font-family:'Bootzy TM','Fraunces',Georgia,serif;font-weight:400;font-size:34px;letter-spacing:.03em;color:#2f5d3a;display:block;line-height:1.1;margin-bottom:4px}
+.stn p{font-size:16.5px;line-height:1.35;color:#1f4a2c}
+.stn::after{content:"";position:absolute;left:50%;width:4px;height:48px;background:#fff;translate:-50% 0}
+.stn.up::after{top:100%}.stn.down::after{bottom:100%}
+.stn::before{content:"";position:absolute;left:50%;width:22px;height:22px;border-radius:50%;background:#4f8a5b;border:4px solid #fff;translate:-50% 0;z-index:2}
+.stn.up::before{top:calc(100% + 38px)}.stn.down::before{bottom:calc(100% + 38px)}
+.stn.last{background:#2f5d3a}.stn.last b,.stn.last p{color:#fff}.stn.last::before{background:#c9a77a}
+.active .stn{animation:pop .5s ease both;animation-delay:calc(var(--i)*.78s + .5s)}
+@keyframes pop{from{opacity:0;translate:-50% 16px}to{opacity:1;translate:-50% 0}}
 @media print{html,body{overflow:visible}#nav,#rail,#train{display:none}}
 </style>
 </head>
@@ -205,7 +223,7 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 <path d="M0 760 C180 700 360 780 600 730 S1000 690 1230 750 S1500 720 1600 740 L1600 900 L0 900Z" fill="#12301f"/>
 </svg>
 <div id="corners" aria-hidden="true">
-<svg class="cn c1"><use href="#sprig"/></svg><svg class="cn c2"><use href="#sprig"/></svg><svg class="cn c3"><use href="#sprig"/></svg><svg class="cn c4"><use href="#sprig"/></svg></div>
+<svg class="cn c1"><use href="#sprig"/></svg><svg class="cn c2"><use href="#sprig"/></svg></div>
 <div id="rail"></div><div id="train"><svg class="trainsvg" viewBox="0 0 220 110" aria-hidden="true">
 <circle class="puff" cx="152" cy="10" r="9"/><circle class="puff" cx="152" cy="10" r="9"/><circle class="puff" cx="152" cy="10" r="9"/>
 <g fill="currentColor"><rect x="56" y="38" width="118" height="30" rx="15"/><rect x="18" y="24" width="46" height="50"/><rect x="12" y="17" width="58" height="9"/>
@@ -291,16 +309,18 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 
 <!-- 4b HISTORIA -->
 <section class="slide">
-  <div class="kicker">Estação Matilde</div>
+  <div class="kicker">Linha do tempo</div>
   <h2>Matilde nasceu do trem, e a pousada pode voltar aos trilhos.</h2>
-  <div class="hist reveal">
-    <div class="st" data-y="1877"><p>Chegam os imigrantes italianos. Matilde é colonizada nas levas de 1888 e 1895.</p></div>
-    <div class="st" data-y="1910"><p>Inaugurada a estação ferroviária. O povoado leva o nome da esposa do engenheiro da linha.</p></div>
-    <div class="st" data-y="1986"><p>A estação é tombada pelo Estado, a única do ES com traços anteriores à Revolução Industrial.</p></div>
-    <div class="st" data-y="2010"><p>Restaurada, vira centro cultural, com exposições e loja de artesanato.</p></div>
-    <div class="st" data-y="Hoje"><p>Os trilhos viram caminho a pé até o túnel. A cachoeira tem entrada gratuita.</p></div>
+  <div class="tlx">
+    <div class="line"></div><div class="runner"></div>
+    <div class="stn up" style="--x:11.0%;--i:0"><b>1877</b><p>Chegam à região os imigrantes italianos.</p></div>
+    <div class="stn down" style="--x:24.0%;--i:1"><b>1891</b><p>Alfredo Chaves é emancipado, em 24 de janeiro.</p></div>
+    <div class="stn up" style="--x:37.0%;--i:2"><b>1910</b><p>Inaugurada a estação ferroviária. O povoado ganha o nome da esposa do engenheiro.</p></div>
+    <div class="stn down" style="--x:50.0%;--i:3"><b>1986</b><p>A estação é tombada pelo Estado, a única do ES com traços anteriores à Revolução Industrial.</p></div>
+    <div class="stn up" style="--x:63.0%;--i:4"><b>2010</b><p>Restaurada, vira centro cultural, com exposições e loja de artesanato.</p></div>
+    <div class="stn down" style="--x:76.0%;--i:5"><b>2025</b><p>A cachoeira volta a ter entrada gratuita e a Viagem e Turismo destaca Alfredo Chaves.</p></div>
+    <div class="stn up last" style="--x:89.0%;--i:6"><b>Próxima parada</b><p>Vila Mathilde, de volta aos trilhos.</p></div>
   </div>
-  "><p><b>A ideia do plano:</b> a ferrovia deu origem a Matilde e hoje é o maior símbolo do lugar. O trem será o fio condutor: colocar a Vila Mathilde de volta nos trilhos, da primeira mensagem à volta do hóspede.</p></div>
 </section>
 
 <!-- 5 CONCORRENCIA -->
@@ -492,6 +512,7 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="train3d.js"></script>
 <script>
+document.querySelectorAll('.runner').forEach(r=>r.innerHTML=document.getElementById('train').innerHTML);
 const slides=[...document.querySelectorAll('.slide')],stage=document.getElementById('stage');
 let cur=0;
 function fit(){const s=Math.min(innerWidth/1280,(innerHeight-40)/720);stage.style.transform=`translate(-50%,-50%) scale(${s})`}
