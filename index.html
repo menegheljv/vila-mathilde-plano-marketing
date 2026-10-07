@@ -166,6 +166,26 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 .panel.card p,.panel.card li{font-size:20px}.panel.card li{margin:3px 0}
 .card p{color:var(--ink)}
 .panel.card:hover,.panel.card.on{scale:1;translate:0 0;box-shadow:5px 5px 0 var(--line)}
+
+#corners .cn{position:fixed;pointer-events:none;fill:var(--green2);stroke:var(--green2);z-index:0}
+.c1{width:300px;height:450px;right:-60px;top:-110px;transform:rotate(150deg);opacity:.26}
+.c2{width:300px;height:450px;left:-80px;bottom:-110px;transform:rotate(30deg);opacity:.26}
+.c3{width:190px;height:285px;left:-50px;top:-70px;transform:rotate(-140deg);opacity:.15}
+.c4{width:190px;height:285px;right:-40px;bottom:-60px;transform:rotate(-30deg);opacity:.15}
+.sprig{display:none}
+
+/* hover enxuto: só sobe um pouco */
+.card::after{display:none}
+.card:hover,.card.on{scale:1;rotate:0deg;translate:0 -6px;box-shadow:7px 11px 0 var(--green2)}
+.card h3,.card:hover h3{letter-spacing:.03em;transition:none}
+.card li:hover,.sq li:hover{translate:0 0;color:inherit}
+.card:hover .big{scale:1;color:var(--green)}
+.node:hover,.tab:hover{scale:1;translate:0 0;box-shadow:4px 4px 0 var(--line);border-color:var(--bd)}
+.step:hover,.hist .st:hover{translate:0 0}.step:hover::before{scale:1;background:var(--card)}.hist .st:hover::after{scale:1;background:var(--ink)}
+.step:last-child:hover::before{background:var(--green)}
+.sq:hover{rotate:0deg;scale:1}
+.flip:hover{translate:0 0;scale:1}.flip:hover .face{box-shadow:5px 5px 0 var(--line)}
+.bar:hover{translate:0 0}
 @media print{html,body{overflow:visible}#nav,#rail,#train{display:none}}
 </style>
 </head>
@@ -182,6 +202,8 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 <rect y="560" width="1600" height="140" fill="url(#mist)"/>
 <path d="M0 760 C180 700 360 780 600 730 S1000 690 1230 750 S1500 720 1600 740 L1600 900 L0 900Z" fill="#12301f"/>
 </svg>
+<div id="corners" aria-hidden="true">
+<svg class="cn c1"><use href="#sprig"/></svg><svg class="cn c2"><use href="#sprig"/></svg><svg class="cn c3"><use href="#sprig"/></svg><svg class="cn c4"><use href="#sprig"/></svg></div>
 <div id="rail"></div><div id="train"><svg class="trainsvg" viewBox="0 0 220 110" aria-hidden="true">
 <circle class="puff" cx="152" cy="10" r="9"/><circle class="puff" cx="152" cy="10" r="9"/><circle class="puff" cx="152" cy="10" r="9"/>
 <g fill="currentColor"><rect x="56" y="38" width="118" height="30" rx="15"/><rect x="18" y="24" width="46" height="50"/><rect x="12" y="17" width="58" height="9"/>
@@ -468,7 +490,6 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="train3d.js"></script>
 <script>
-document.querySelectorAll('.slide:not(.cover)').forEach((sl,i)=>{sl.insertAdjacentHTML('afterbegin','<svg class="sprig a"><use href="#sprig"/></svg><svg class="sprig b"><use href="#sprig"/></svg>')});
 const slides=[...document.querySelectorAll('.slide')],stage=document.getElementById('stage');
 let cur=0;
 function fit(){const s=Math.min(innerWidth/1280,(innerHeight-40)/720);stage.style.transform=`translate(-50%,-50%) scale(${s})`}
