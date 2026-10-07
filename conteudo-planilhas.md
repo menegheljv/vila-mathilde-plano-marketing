@@ -1,5 +1,7 @@
 # Pousada Vila Mathilde: conteúdo para as planilhas
 
+Perfil oficial no Instagram: @pousadavilamathilde_oficial
+
 Público-alvo definido: **homem aposentado, terceira idade, que busca sossego.**
 Tudo abaixo é para colar nas cópias das planilhas. Os dados vêm do briefing e do diagnóstico em PDF. O que é hipótese minha está marcado.
 

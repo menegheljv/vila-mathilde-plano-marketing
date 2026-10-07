@@ -15,6 +15,9 @@ Abra `index.html` no navegador (ou pela página do GitHub Pages). Use as setas d
 | `03-analise-competitiva.xlsx` | Visão geral da concorrência |
 | `conteudo-planilhas.md` | Texto completo, persona, funil e pontos a confirmar |
 
+## Perfil oficial
+Instagram: @pousadavilamathilde_oficial
+
 ## Público-alvo
 Aposentado de terceira idade que busca sossego. Hoje a pousada recebe excursões de ônibus que vão e voltam no mesmo dia. O plano busca converter esse visitante em hóspede.
 
