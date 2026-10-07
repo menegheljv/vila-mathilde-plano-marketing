@@ -21,7 +21,7 @@ Tudo abaixo é para colar nas cópias das planilhas. Os dados vêm do briefing e
 2. Telefone fixo que não completa a ligação (relato no Google) e cadastros errados nas OTAs
 3. Dono sem tempo e sem prática para produzir conteúdo de qualidade
 4. Anúncios pagos sem oferta clara, sem chamada para o WhatsApp e sem medição
-5. Quartos com decoração simples, que recebem as menores notas (4,4 no TripAdvisor)
+5. Estrutura antiga e quartos de decoração simples, que recebem as menores notas (4,4 no TripAdvisor)
 6. Baixa ocupação, até nos fins de semana, desde o período em que a pousada fechou
 7. Público atual é de excursão de ônibus, que vai e volta no mesmo dia e não pernoita
 
