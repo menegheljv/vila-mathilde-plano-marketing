@@ -3,6 +3,8 @@
 Trabalho da aula 08 (Planejamento de Marketing Digital) para a Pousada Vila Mathilde, em Matilde, Alfredo Chaves (ES).
 
 ## Apresentação dinâmica
+Ver no ar: https://menegheljv.github.io/vila-mathilde-plano-marketing/
+
 Abra `index.html` no navegador (ou pela página do GitHub Pages). Use as setas do teclado, o mouse ou o toque para navegar. Na matriz SWOT, nos objetivos SMART e no funil há elementos clicáveis.
 
 ## Planilhas respondidas
