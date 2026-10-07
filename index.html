@@ -206,11 +206,40 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 .stn.last{background:#2f5d3a}.stn.last b,.stn.last p{color:#fff}.stn.last::before{background:#c9a77a}
 .active .stn{animation:pop .5s ease both;animation-delay:calc(var(--i)*.78s + .5s)}
 @keyframes pop{from{opacity:0;translate:-50% 16px}to{opacity:1;translate:-50% 0}}
+
+/* texto maior nos bilhetes */
+.card p,.card li{font-size:24px;line-height:1.38}
+.card h3{font-size:34px}
+.card .small{font-size:18px}
+.big{font-size:84px}
+.panel.card p,.panel.card li{font-size:23px}
+.sq h3{font-size:28px}.sq li{font-size:18px}.sq .hint{font-size:18px}
+.stn{width:268px}.stn b{font-size:38px}.stn p{font-size:19px}
+.node{font-size:22px}.node small{font-size:17px}
+.face p{font-size:24px}.face h3{font-size:34px}.back p{font-size:28px}
+.card::before{font-size:13px}
+
+.stn.s{width:210px;padding:10px 16px 12px}.stn.s b{font-size:30px}.stn.s p{font-size:17px}
+.stn.m{width:262px}
+.stn.xl{width:330px;padding:16px 22px 18px}.stn.xl b{font-size:50px}.stn.xl p{font-size:21px}
+.stn.xl.up{bottom:232px}.stn.xl.down{top:232px}
+.stn.s.up{bottom:246px}.stn.s.down{top:246px}
+.stn.xl::before{width:30px;height:30px}
+.stn.s::before{width:16px;height:16px}
+
+.tlx{height:430px}
+.tlx .line{top:207px}
+.tlx .runner{top:160px}
+.stn.up,.stn.s.up,.stn.xl.up{bottom:265px}
+.stn.down,.stn.s.down,.stn.xl.down{top:265px}
+.stn.xl{width:340px}.stn.xl b{font-size:44px}.stn.xl p{font-size:20px}
+.stn.last b{font-size:40px;white-space:nowrap}
+.stn.up::before{top:calc(100% + 39px)}.stn.down::before{bottom:calc(100% + 39px)}
 @media print{html,body{overflow:visible}#nav,#rail,#train{display:none}}
 </style>
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute"><defs><path id="lf" d="M0 0 C 14 -11, 34 -11, 50 0 C 34 11, 14 11, 0 0Z" stroke="none"/><symbol id="sprig" viewBox="0 0 200 300"><path d="M117.6 290 L116.2 282 L114.1 274 L111.3 266 L108.1 258 L104.4 250 L100.6 242 L96.6 234 L92.8 226 L89.2 218 L86.0 210 L83.4 202 L81.5 194 L80.2 186 L79.8 178 L80.1 170 L81.2 162 L83.1 154 L85.5 146 L88.5 138 L91.8 130 L95.4 122 L99.0 114 L102.5 106 L105.8 98 L108.6 90 L110.8 82 L112.4 74 L113.3 66 L113.3 58 L112.6 50 L111.1 42 L108.9 34 L106.1 26 L102.8 18 L99.1 10" fill="none" stroke-width="3" stroke-linejoin="round"/><use href="#lf" transform="translate(104.4 250) rotate(-38) scale(1.25)"/><use href="#lf" transform="translate(104.4 236) rotate(-142) scale(1.25)"/><use href="#lf" transform="translate(89.2 218) rotate(-38) scale(1.13)"/><use href="#lf" transform="translate(89.2 204) rotate(-142) scale(1.13)"/><use href="#lf" transform="translate(80.2 186) rotate(-38) scale(1.01)"/><use href="#lf" transform="translate(80.2 172) rotate(-142) scale(1.01)"/><use href="#lf" transform="translate(83.1 154) rotate(-38) scale(0.89)"/><use href="#lf" transform="translate(83.1 140) rotate(-142) scale(0.89)"/><use href="#lf" transform="translate(95.4 122) rotate(-38) scale(0.77)"/><use href="#lf" transform="translate(95.4 108) rotate(-142) scale(0.77)"/><use href="#lf" transform="translate(108.6 90) rotate(-38) scale(0.65)"/><use href="#lf" transform="translate(108.6 76) rotate(-142) scale(0.65)"/><use href="#lf" transform="translate(113.3 58) rotate(-38) scale(0.53)"/><use href="#lf" transform="translate(113.3 44) rotate(-142) scale(0.53)"/><use href="#lf" transform="translate(106.1 26) rotate(-38) scale(0.41)"/><use href="#lf" transform="translate(106.1 12) rotate(-142) scale(0.41)"/><use href="#lf" transform="translate(104 8) rotate(-90) scale(.8)"/></symbol><pattern id="pat" width="180" height="180" patternUnits="userSpaceOnUse"><use href="#lf" transform="translate(90 46) rotate(202) scale(0.89)"/><use href="#lf" transform="translate(26 145) rotate(48) scale(0.72)"/><use href="#lf" transform="translate(22 137) rotate(109) scale(0.52)"/><use href="#lf" transform="translate(119 115) rotate(35) scale(0.64)"/><use href="#lf" transform="translate(149 116) rotate(30) scale(1.00)"/><use href="#lf" transform="translate(39 65) rotate(322) scale(0.88)"/><use href="#lf" transform="translate(23 155) rotate(299) scale(0.74)"/><use href="#lf" transform="translate(64 19) rotate(285) scale(1.02)"/><use href="#lf" transform="translate(82 115) rotate(73) scale(0.82)"/></pattern></defs></svg>
+<svg width="0" height="0" style="position:absolute"><defs><path id="lf" d="M0 0 C 14 -11, 34 -11, 50 0 C 34 11, 14 11, 0 0Z" stroke="none"/><symbol id="sprig" viewBox="0 0 200 300"><path d="M117.6 290 L116.6 284 L115.2 278 L113.5 272 L111.3 266 L108.9 260 L106.3 254 L103.5 248 L100.6 242 L97.6 236 L94.7 230 L91.9 224 L89.2 218 L86.8 212 L84.7 206 L82.9 200 L81.5 194 L80.5 188 L79.9 182 L79.8 176 L80.1 170 L80.9 164 L82.1 158 L83.6 152 L85.5 146 L87.7 140 L90.1 134 L92.7 128 L95.4 122 L98.1 116 L100.8 110 L103.4 104 L105.8 98 L107.9 92 L109.8 86 L111.3 80 L112.4 74 L113.1 68 L113.4 62 L113.2 56 L112.6 50 L111.6 44 L110.1 38 L108.3 32" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><use href="#lf" transform="translate(109.8 262) rotate(-38) scale(1.20)"/><use href="#lf" transform="translate(109.8 252) rotate(-142) scale(1.20)"/><use href="#lf" transform="translate(98.6 238) rotate(-38) scale(1.11)"/><use href="#lf" transform="translate(98.6 228) rotate(-142) scale(1.11)"/><use href="#lf" transform="translate(87.6 214) rotate(-38) scale(1.02)"/><use href="#lf" transform="translate(87.6 204) rotate(-142) scale(1.02)"/><use href="#lf" transform="translate(80.7 190) rotate(-38) scale(0.92)"/><use href="#lf" transform="translate(80.7 180) rotate(-142) scale(0.92)"/><use href="#lf" transform="translate(80.6 166) rotate(-38) scale(0.83)"/><use href="#lf" transform="translate(80.6 156) rotate(-142) scale(0.83)"/><use href="#lf" transform="translate(86.9 142) rotate(-38) scale(0.74)"/><use href="#lf" transform="translate(86.9 132) rotate(-142) scale(0.74)"/><use href="#lf" transform="translate(97.2 118) rotate(-38) scale(0.65)"/><use href="#lf" transform="translate(97.2 108) rotate(-142) scale(0.65)"/><use href="#lf" transform="translate(107.2 94) rotate(-38) scale(0.56)"/><use href="#lf" transform="translate(107.2 84) rotate(-142) scale(0.56)"/><use href="#lf" transform="translate(112.9 70) rotate(-38) scale(0.46)"/><use href="#lf" transform="translate(112.9 60) rotate(-142) scale(0.46)"/><use href="#lf" transform="translate(112.0 46) rotate(-38) scale(0.37)"/><use href="#lf" transform="translate(112.0 36) rotate(-142) scale(0.37)"/><use href="#lf" transform="translate(107.6 30) rotate(-107) scale(.42)"/></symbol><pattern id="pat" width="180" height="180" patternUnits="userSpaceOnUse"><use href="#lf" transform="translate(90 46) rotate(202) scale(0.89)"/><use href="#lf" transform="translate(26 145) rotate(48) scale(0.72)"/><use href="#lf" transform="translate(22 137) rotate(109) scale(0.52)"/><use href="#lf" transform="translate(119 115) rotate(35) scale(0.64)"/><use href="#lf" transform="translate(149 116) rotate(30) scale(1.00)"/><use href="#lf" transform="translate(39 65) rotate(322) scale(0.88)"/><use href="#lf" transform="translate(23 155) rotate(299) scale(0.74)"/><use href="#lf" transform="translate(64 19) rotate(285) scale(1.02)"/><use href="#lf" transform="translate(82 115) rotate(73) scale(0.82)"/></pattern></defs></svg>
 
 <svg id="bg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
 <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1f15"/><stop offset=".6" stop-color="#173626"/><stop offset="1" stop-color="#245238"/></linearGradient>
@@ -313,13 +342,13 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
   <h2>Matilde nasceu do trem, e a pousada pode voltar aos trilhos.</h2>
   <div class="tlx">
     <div class="line"></div><div class="runner"></div>
-    <div class="stn up" style="--x:11.0%;--i:0"><b>1877</b><p>Chegam à região os imigrantes italianos.</p></div>
-    <div class="stn down" style="--x:24.0%;--i:1"><b>1891</b><p>Alfredo Chaves é emancipado, em 24 de janeiro.</p></div>
-    <div class="stn up" style="--x:37.0%;--i:2"><b>1910</b><p>Inaugurada a estação ferroviária. O povoado ganha o nome da esposa do engenheiro.</p></div>
-    <div class="stn down" style="--x:50.0%;--i:3"><b>1986</b><p>A estação é tombada pelo Estado, a única do ES com traços anteriores à Revolução Industrial.</p></div>
-    <div class="stn up" style="--x:63.0%;--i:4"><b>2010</b><p>Restaurada, vira centro cultural, com exposições e loja de artesanato.</p></div>
-    <div class="stn down" style="--x:76.0%;--i:5"><b>2025</b><p>A cachoeira volta a ter entrada gratuita e a Viagem e Turismo destaca Alfredo Chaves.</p></div>
-    <div class="stn up last" style="--x:89.0%;--i:6"><b>Próxima parada</b><p>Vila Mathilde, de volta aos trilhos.</p></div>
+    <div class="stn up s" style="--x:11.0%;--i:0"><b>1877</b><p>Chegam à região os imigrantes italianos.</p></div>
+    <div class="stn down s" style="--x:24.0%;--i:1"><b>1891</b><p>Alfredo Chaves é emancipado, em 24 de janeiro.</p></div>
+    <div class="stn up xl" style="--x:37.0%;--i:2"><b>1910</b><p>Inaugurada a estação. O povoado ganha o nome da esposa do engenheiro.</p></div>
+    <div class="stn down m" style="--x:50.0%;--i:3"><b>1986</b><p>A estação é tombada pelo Estado, a única do ES com traços anteriores à Revolução Industrial.</p></div>
+    <div class="stn up s" style="--x:63.0%;--i:4"><b>2010</b><p>Restaurada, vira centro cultural, com exposições e loja de artesanato.</p></div>
+    <div class="stn down m" style="--x:76.0%;--i:5"><b>2025</b><p>A cachoeira volta a ter entrada gratuita e a Viagem e Turismo destaca Alfredo Chaves.</p></div>
+    <div class="stn up xl last" style="--x:89.0%;--i:6"><b>Próxima parada</b><p>Vila Mathilde, de volta aos trilhos.</p></div>
   </div>
 </section>
 
