@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plano de Marketing Digital Vila Mathilde</title>
+<style>
+:root{
+  --bg:#f6f1e7; --ink:#23301f; --muted:#5f6b57; --green:#2f5d3a; --green2:#4f8a5b; --moss:#dfe8d5;
+  --earth:#b4673a; --sand:#ebe2cf; --card:#fffaf0; --line:#d8cfba; --alert:#a8402b;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#141b13; --ink:#f1ecde; --muted:#aab5a0; --green:#8cc79a; --green2:#6fae7e; --moss:#22301f;
+  --earth:#e39a6a; --sand:#1d261b; --card:#1a2318; --line:#34422f; --alert:#ef8d77;}
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,sans-serif}
+#stage{position:absolute;left:50%;top:50%;width:1280px;height:720px;transform-origin:center;}
+.slide{position:absolute;inset:0;padding:64px 80px;display:flex;flex-direction:column;justify-content:center;
+  opacity:0;pointer-events:none;transform:translateX(40px);transition:opacity .55s ease,transform .55s ease;}
+.slide.active{opacity:1;pointer-events:auto;transform:none}
+.slide.past{transform:translateX(-40px)}
+h1,h2,h3,p,li{text-wrap:balance}
+p,li{text-wrap:pretty}
+h1{font-family:Georgia,serif;font-size:76px;line-height:1.05;color:var(--green);font-weight:700}
+h2{font-family:Georgia,serif;font-size:46px;line-height:1.1;color:var(--green);margin-bottom:10px}
+h3{font-size:24px;margin-bottom:8px;color:var(--ink)}
+.kicker{font-size:15px;letter-spacing:.18em;text-transform:uppercase;color:var(--earth);font-weight:700;margin-bottom:14px}
+.lead{font-size:24px;color:var(--muted);line-height:1.4;max-width:900px;margin-bottom:26px}
+p{font-size:20px;line-height:1.45}
+.grid{display:grid;gap:20px}
+.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 24px}
+.card p,.card li{font-size:18px}
+.big{font-family:Georgia,serif;font-size:60px;color:var(--green);line-height:1}
+.small{font-size:15px;color:var(--muted);margin-top:6px}
+.tag{display:inline-block;background:var(--moss);color:var(--green);border-radius:99px;padding:5px 14px;font-size:14px;font-weight:700}
+.warn{background:rgba(168,64,43,.12);color:var(--alert)}
+ul{padding-left:22px}li{margin:6px 0}
+.reveal>*{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.active .reveal>*{opacity:1;transform:none}
+.active .reveal>*:nth-child(1){transition-delay:.15s}.active .reveal>*:nth-child(2){transition-delay:.3s}
+.active .reveal>*:nth-child(3){transition-delay:.45s}.active .reveal>*:nth-child(4){transition-delay:.6s}
+.cover{background:linear-gradient(135deg,var(--moss),var(--bg) 60%)}
+.cover::after{content:"";position:absolute;right:-120px;bottom:-140px;width:520px;height:520px;border-radius:50%;
+  background:radial-gradient(circle,var(--green2),transparent 68%);opacity:.35;animation:pulse 7s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.12)}}
+/* swot */
+.swot{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.sq{border-radius:16px;padding:16px 20px;cursor:pointer;border:2px solid transparent;transition:.25s;background:var(--card);border-color:var(--line)}
+.sq:hover,.sq.open{border-color:var(--green2);transform:translateY(-2px)}
+.sq h3{display:flex;justify-content:space-between;font-size:21px}
+.sq ul{display:none;margin-top:6px}.sq.open ul{display:block}
+.sq li{font-size:15px;margin:3px 0}
+.sq .hint{font-size:13px;color:var(--muted)}.sq.open .hint{display:none}
+.sqS{background:#e3efdc}.sqW{background:#f4e4d2}.sqO{background:#dde9ef}.sqT{background:#f1dcd7}
+@media (prefers-color-scheme:dark){.sqS{background:#1f2f1f}.sqW{background:#33261a}.sqO{background:#1a2a33}.sqT{background:#331e1b}}
+/* tabs */
+.tabs{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:10px 20px;border-radius:99px;font-size:17px;cursor:pointer;font-weight:600}
+.tab.on{background:var(--green);color:var(--bg);border-color:var(--green)}
+.panel{display:none}.panel.on{display:block;animation:fade .4s}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}}
+/* flip */
+.flip{perspective:900px;height:370px;cursor:pointer}
+.flip .in{position:relative;width:100%;height:100%;transition:transform .7s;transform-style:preserve-3d}
+.flip.on .in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;border-radius:18px;padding:26px;background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column;justify-content:center}
+.back{transform:rotateY(180deg);background:var(--green);color:var(--bg);border:0}
+.back p{color:var(--bg);font-size:20px}
+.back .kicker{color:var(--bg);opacity:.8}
+/* timeline */
+.tl{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;position:relative;margin-top:14px}
+.tl::before{content:"";position:absolute;left:0;right:0;top:20px;height:4px;background:var(--line)}
+.tl .fill{position:absolute;left:0;top:20px;height:4px;background:var(--earth);width:0;transition:width 2s ease .5s}
+.active .tl .fill{width:100%}
+.step{position:relative;padding-top:40px}
+.step::before{content:"";position:absolute;top:10px;left:0;width:24px;height:24px;border-radius:50%;background:var(--earth);border:4px solid var(--bg)}
+.step h3{font-size:19px}.step p{font-size:16px}
+/* route */
+.route{display:flex;align-items:center;gap:0;margin:14px 0}
+.node{background:var(--card);border:2px solid var(--green2);border-radius:14px;padding:12px 16px;text-align:center;font-size:17px;font-weight:600;min-width:150px}
+.node small{display:block;font-weight:400;color:var(--muted);font-size:13px}
+.road{flex:1;height:0;border-top:4px dashed var(--earth);position:relative;min-width:40px}
+.road::after{content:"▶";position:absolute;right:-6px;top:-14px;color:var(--earth);font-size:20px}
+.node.end{background:var(--green);color:var(--bg);border-color:var(--green)}.node.end small{color:var(--bg);opacity:.8}
+/* bars */
+.bar{margin:10px 0}.bar span{font-size:17px;display:flex;justify-content:space-between}
+.track{height:16px;border-radius:99px;background:var(--sand);overflow:hidden;margin-top:4px}
+.fillb{height:100%;border-radius:99px;width:0;background:var(--green2);transition:width 1.4s ease .4s}
+.fillb.hi{background:var(--earth)}
+/* chrome */
+#progress{position:fixed;left:0;top:0;height:5px;background:var(--earth);width:0;transition:width .4s;z-index:9}
+#nav{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:10px;align-items:center;z-index:9;
+  background:var(--card);border:1px solid var(--line);border-radius:99px;padding:6px 10px;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+#nav button{border:0;background:var(--moss);color:var(--green);width:38px;height:38px;border-radius:50%;font-size:18px;cursor:pointer}
+#nav span{font-size:14px;color:var(--muted);min-width:56px;text-align:center}
+.foot{position:absolute;left:80px;bottom:26px;font-size:13px;color:var(--muted)}
+@media print{html,body{overflow:visible}#nav,#progress{display:none}}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<div id="stage">
+
+<!-- 1 CAPA -->
+<section class="slide cover">
+  <div class="reveal">
+    <div class="kicker">Planejamento de Marketing Digital</div>
+    <h1>Pousada Vila Mathilde</h1>
+    <p class="lead" style="margin-top:20px">O refúgio de sossego entre montanhas e cachoeiras de Matilde, Alfredo Chaves, ES.</p>
+    <span class="tag">Plano para 6 meses</span>
+  </div>
+</section>
+
+<!-- 2 DESAFIO -->
+<section class="slide">
+  <div class="kicker">O desafio</div>
+  <h2>Uma pousada querida que perdeu o fio da meada</h2>
+  <div class="grid g3 reveal" style="margin-top:20px">
+    <div class="card"><h3>O que aconteceu</h3><p>A Vila Mathilde ficou fechada por um tempo e a clientela se dispersou. Hoje é difícil lotar até nos fins de semana.</p></div>
+    <div class="card"><h3>O cenário</h3><p>Pedra Azul, Santa Teresa e Buenos Aires, em Guarapari, se consolidaram como destinos de montanha no ES.</p></div>
+    <div class="card"><h3>A dor do dono</h3><p>Falta tempo e prática para criar conteúdo, e os anúncios pagos trazem pouco resultado em vendas.</p></div>
+  </div>
+  <p class="lead" style="margin-top:26px"><b>Missão do plano:</b> aumentar as vendas e melhorar a imagem da marca.</p>
+</section>
+
+<!-- 3 DIAGNOSTICO -->
+<section class="slide">
+  <div class="kicker">Diagnóstico</div>
+  <h2>A reputação é boa. A vitrine digital é que afasta.</h2>
+  <div class="grid g4" style="margin-top:22px">
+    <div class="card"><div class="big" data-count="4.7" data-dec="1">0</div><p class="small">nota no Google, com 123 avaliações</p></div>
+    <div class="card"><div class="big" data-count="9.2" data-dec="1">0</div><p class="small">nota média nos metabuscadores</p></div>
+    <div class="card"><div class="big" data-count="1447">0</div><p class="small">seguidores no Instagram</p></div>
+    <div class="card"><div class="big" data-count="4.9" data-dec="1">0</div><p class="small">limpeza e atendimento no TripAdvisor</p></div>
+  </div>
+  <div class="grid g2 reveal" style="margin-top:22px">
+    <div class="card"><span class="tag warn">Problema 1</span><p style="margin-top:8px">A bio do Instagram diz "A VENDA EM MATILDE/ES". O cliente clica e acha que a pousada fechou.</p></div>
+    <div class="card"><span class="tag warn">Problema 2</span><p style="margin-top:8px">Telefone que não completa a ligação e cadastros desatualizados e contraditórios nas OTAs.</p></div>
+  </div>
+</section>
+
+<!-- 3b PUBLICO ATUAL -->
+<section class="slide">
+  <div class="kicker">Quem vem hoje</div>
+  <h2>O público atual chega de ônibus e vai embora no mesmo dia</h2>
+  <div class="route reveal" style="margin:22px 0">
+    <div class="node">Ônibus de excursão<small>sai cedo</small></div><div class="road"></div>
+    <div class="node">Cachoeira, estação e túnel<small>algumas horas</small></div><div class="road"></div>
+    <div class="node warn" style="border-color:var(--alert);color:var(--alert)">Volta no mesmo dia<small>sem pernoite</small></div>
+  </div>
+  <div class="grid g2 reveal">
+    <div class="card"><h3>O problema</h3><p>O movimento existe, mas o turista usufrui do destino e não da pousada. A pousada não aparece no roteiro da excursão.</p></div>
+    <div class="card"><h3>A oportunidade</h3><p>Essa gente já chegou até Matilde. Falta converter o visitante de um dia em lead e, depois, em hóspede que volta para ficar.</p></div>
+  </div>
+</section>
+
+<!-- 4 DESTINO -->
+<section class="slide">
+  <div class="kicker">O destino</div>
+  <h2>Matilde tem atrativos que ninguém repete</h2>
+  <div class="grid g4 reveal" style="margin-top:20px">
+    <div class="card"><h3>Cachoeira</h3><p>70 m de queda, a maior em queda livre do ES. <b>Acesso gratuito desde 17/03/2025.</b></p></div>
+    <div class="card"><h3>Estação de 1910</h3><p>Prédio tombado, centro cultural com exposições e loja de artesanato.</p></div>
+    <div class="card"><h3>Túnel de Matilde</h3><p>Caminhada na pedra, com água na altura do tornozelo.</p></div>
+    <div class="card"><h3>Herança italiana</h3><p>Imigração de 1877, gastronomia e o Festival de Inverno, em junho.</p></div>
+  </div>
+  <p class="lead" style="margin-top:26px">Falta ao destino uma marca de hospedagem que "embale" essa experiência. A Vila Mathilde pode ocupar esse lugar.</p>
+</section>
+
+<!-- 5 CONCORRENCIA -->
+<section class="slide">
+  <div class="kicker">Concorrência e custo</div>
+  <h2>Matilde entrega mais sossego por um custo menor</h2>
+  <div class="grid g3" style="margin-top:20px">
+    <div class="card"><h3>Pedra Azul</h3><div class="bar"><span>Diária de fim de semana<b>R$ 250 a 3.850</b></span><div class="track"><div class="fillb hi" data-w="95"></div></div></div><p class="small">Destino-marca, preço dinâmico e fim de semana a 2x o dia útil.</p></div>
+    <div class="card"><h3>Santa Teresa</h3><div class="bar"><span>Faixas típicas<b>R$ 150 a 500+</b></span><div class="track"><div class="fillb hi" data-w="55"></div></div></div><p class="small">Eventos lotam a cidade e esgotam as vagas.</p></div>
+    <div class="card"><h3>Buenos Aires</h3><div class="bar"><span>Diária de referência<b>cerca de R$ 250</b></span><div class="track"><div class="fillb hi" data-w="45"></div></div></div><p class="small">Investimento pesado e tendência de alta de preço.</p></div>
+  </div>
+  <div class="card reveal" style="margin-top:20px;background:var(--moss)"><p><b>Matilde:</b> cachoeira gratuita e custo de viagem abaixo da região. <span class="small">(Confirmar a tarifa atual da pousada antes de divulgar valores.)</span></p></div>
+</section>
+
+<!-- 6 SWOT -->
+<section class="slide">
+  <div class="kicker">Análise situacional</div>
+  <h2>Matriz SWOT <span style="font-size:20px;color:var(--muted);font-family:'Segoe UI'">toque em um quadrante</span></h2>
+  <div class="swot" style="margin-top:12px">
+    <div class="sq sqS"><h3>Forças <span>+</span></h3><p class="hint">Reputação, atendimento, café, jardim, localização</p><ul>
+      <li>Google 4,7 e 9,2 a 9,5 nos metabuscadores</li><li>Só 6 quartos: reservado e silencioso</li><li>Atendimento familiar elogiado pelo nome</li>
+      <li>Café regional, com opção sem glúten e sem lactose</li><li>Jardim com orquídeas, redes, piscina e área social</li><li>Estacionamento, perto da estação e da cachoeira</li></ul></div>
+    <div class="sq sqW"><h3>Fraquezas <span>+</span></h3><p class="hint">Imagem digital, contato, conteúdo, ocupação</p><ul>
+      <li>Bio "à venda" e cadastros contraditórios</li><li>Telefone que não completa ligação</li><li>Dono sem tempo para criar conteúdo</li>
+      <li>Anúncios sem oferta clara nem medição</li><li>Quartos simples, nota 4,4</li><li>Baixa ocupação, até nos fins de semana</li><li>Público atual é de excursão de ônibus, que não pernoita</li></ul></div>
+    <div class="sq sqO"><h3>Oportunidades <span>+</span></h3><p class="hint">Cachoeira gratuita, mídia, meio de semana, custo menor</p><ul>
+      <li>Mudança política: a gestão atual tornou gratuita de novo a entrada da cachoeira (17/03/2025)</li><li>Destaque na Viagem e Turismo (jun/2025)</li><li>Aposentado viaja fora de feriado e enche o "vale"</li>
+      <li>Turismo de montanha em crescimento</li><li>Festival de Inverno e estação reformada</li><li>Excursões que já chegam a Matilde: base para converter visitante de um dia em hóspede</li><li>Custo de viagem menor que o da região</li></ul></div>
+    <div class="sq sqT"><h3>Ameaças <span>+</span></h3><p class="hint">Destinos consolidados, concorrentes diretos, rota</p><ul>
+      <li>Pedra Azul e Santa Teresa consolidadas</li><li>Buenos Aires, com investimento pesado</li><li>Casa Matilde e Fora do Ar, com notas altas</li>
+      <li>Airbnb de casas para grupos no distrito</li><li>Dependência de clima e chuva</li><li>Fora da rota: é preciso entrar em Alfredo Chaves de propósito</li></ul></div>
+  </div>
+</section>
+
+<!-- 7 PUBLICO -->
+<section class="slide">
+  <div class="kicker">Público-alvo</div>
+  <h2>Seu Antônio, 65 anos, aposentado</h2>
+  <div class="grid g3" style="margin-top:16px">
+    <div class="card reveal"><h3>Perfil</h3><ul>
+      <li>Aposentado, casado ou viúvo</li><li>Grande Vitória ou interior do ES</li><li>Renda fixa, atento ao custo</li><li>Hoje viaja de excursão e volta no mesmo dia</li></ul></div>
+    <div class="card reveal"><h3>Objetivos e dores</h3><ul>
+      <li>Quer sossego, rede, jardim e café da roça</li><li>Cansa de viajar horas para ficar poucas horas</li><li>Evita multidão e escada exigente</li></ul></div>
+    <div class="card reveal"><h3>Como decide</h3><ul>
+      <li>Google e indicação de amigo ou filho</li><li>WhatsApp e Facebook mais que Instagram</li><li>Quer falar com uma pessoa antes de reservar</li></ul></div>
+  </div>
+  <div class="card" style="margin-top:14px;background:var(--moss)"><p><b>Frase dele:</b> "Quero conhecer a cachoeira sem pressa e dormir em paz."</p></div>
+  <p class="small" style="margin-top:10px">Persona proposta como hipótese, a validar com o dono da pousada.</p>
+</section>
+
+<!-- 8 SMART -->
+<section class="slide">
+  <div class="kicker">Objetivos SMART</div>
+  <h2>Três metas para 6 meses <span style="font-size:20px;color:var(--muted);font-family:'Segoe UI'">toque para virar</span></h2>
+  <div class="grid g3" style="margin-top:18px">
+    <div class="flip"><div class="in"><div class="face"><span class="tag">Objetivo 1 · 30 dias</span><h3 style="margin-top:12px">Corrigir a imagem digital</h3><p>Bio, Google, telefone, WhatsApp e OTAs.</p></div>
+      <div class="face back"><div class="kicker">Redação final</div><p>Corrigir 100% dos pontos de contato digitais da pousada em até 30 dias.</p></div></div></div>
+    <div class="flip"><div class="in"><div class="face"><span class="tag">Objetivo 2 · 6 meses</span><h3 style="margin-top:12px">Ocupar o meio da semana</h3><p>Pacote "Sossego de Meio de Semana" para aposentados.</p></div>
+      <div class="face back"><div class="kicker">Redação final</div><p>Alcançar 40% de ocupação média de domingo a quinta em 6 meses.</p></div></div></div>
+    <div class="flip"><div class="in"><div class="face"><span class="tag">Objetivo 3 · 6 meses</span><h3 style="margin-top:12px">Reativar a base e vender direto</h3><p>Lista no WhatsApp com datas livres e tarifa direta.</p></div>
+      <div class="face back"><div class="kicker">Redação final</div><p>Formar uma lista de 300 contatos e chegar a 50% das reservas diretas em 6 meses.</p></div></div></div>
+  </div>
+  <p class="small" style="margin-top:12px">Metas a calibrar com o histórico real de ocupação da pousada.</p>
+</section>
+
+<!-- 9 USP -->
+<section class="slide" style="align-items:flex-start">
+  <div class="kicker">Posicionamento</div>
+  <h2>Uma mensagem simples que transmite sossego</h2>
+  <div class="card reveal" style="background:var(--green);border:0;margin:18px 0 22px;padding:34px 40px">
+    <p style="color:var(--bg);font-family:Georgia,serif;font-size:50px;line-height:1.15">Venha descansar. Matilde espera por você.</p>
+    <p style="color:var(--bg);opacity:.85;font-size:20px;margin-top:14px">Mensagem simples e calma. Variações: "Aqui o dia passa devagar." e "Uma rede, o café da roça e o som da cachoeira."</p>
+  </div>
+  <div class="grid g3" style="width:100%">
+    <div class="card"><h3>Linguagem</h3><p>Acolhedora, simples e direta. "A gente te espera."</p></div>
+    <div class="card"><h3>Gatilhos</h3><p>Prova social, escassez honesta (só 6 quartos), segurança e nostalgia.</p></div>
+    <div class="card"><h3>Mídias</h3><p>Reels, TikTok e vídeos no Facebook, com criadores de turismo nichados, e Google e WhatsApp Business para fechar.</p></div>
+  </div>
+</section>
+
+<!-- 10 FUNIL -->
+<section class="slide">
+  <div class="kicker">Funil de vendas</div>
+  <h2>Do criador ao hóspede, pelo WhatsApp</h2>
+  <div class="tabs" id="funnelTabs">
+    <button class="tab on" data-p="0">1. Captação</button><button class="tab" data-p="1">2. Contato</button>
+    <button class="tab" data-p="2">3. Conversão</button><button class="tab" data-p="3">4. Pós-venda</button>
+  </div>
+  <div class="panel on card"><h3>Parceria paga com criadores de turismo bem nichados</h3><ul>
+    <li>Formato em vídeo: Reels, TikTok e vídeos no Facebook. Posts estáticos engajam menos e ficam em segundo plano</li>
+    <li>Perfis de turismo de interior e natureza no ES, de terceira idade e de roteiros tranquilos</li>
+    <li>Contrato com valor fixo ou diária, entrega combinada e direito de uso das imagens</li>
+    <li>Link ou QR code para o WhatsApp em toda publicação, com mensagem própria por criador</li>
+    <li>Captar também quem já vem: QR code no centrinho, na estação e na pousada, e parceria com agências de excursão para incluir pernoite</li>
+    <li>O conteúdo também resolve a dificuldade do dono em produzir material</li></ul></div>
+  <div class="panel card"><h3>WhatsApp Business como canal único</h3><ul>
+    <li>Mensagem de saudação, catálogo de quartos e pacotes, etiquetas por origem</li>
+    <li>Lista de contatos com mensagem quinzenal: datas livres, clima, cachoeira cheia</li>
+    <li>Primeira resposta em até 15 minutos no horário comercial</li>
+    <li>Para o público idoso, também áudio e ligação</li></ul></div>
+  <div class="panel card"><h3>A estrutura física fecha a venda</h3><ul>
+    <li>Lençóis e toalhas limpos e cheirosos, cama confortável, quarto escuro e silencioso</li>
+    <li>Café da manhã regional e gostoso: pães e bolos caseiros, frutas, ovos caipiras, queijos locais</li>
+    <li>Fotos reais e trechos de avaliações enviados antes da reserva</li>
+    <li>Tarifa direta, pacote de meio de semana, sinal via Pix e cancelamento claro</li></ul></div>
+  <div class="panel card"><h3>Um hóspede que volta e indica</h3><ul>
+    <li>Agradecimento e pedido de avaliação no Google depois da estadia</li>
+    <li>Mensagem de aniversário pelo WhatsApp, simples e carinhosa, com convite para comemorar em Matilde</li>
+    <li>Desconto na segunda estadia, para o hóspede voltar e aumentar o tempo de vida do cliente</li>
+    <li>Presente personalizado na chegada, como caneca ou cesta de café da roça com bilhete com o nome do hóspede, que ele mostra e compartilha</li>
+    <li>Cortesia de café da manhã para quem trouxer um amigo</li>
+    <li>Meta: aumentar o tempo de vida do cliente, com duas estadias por ano</li></ul></div>
+</section>
+
+<!-- 11 ROTA -->
+<section class="slide">
+  <div class="kicker">O obstáculo</div>
+  <h2>Ninguém passa por Matilde. É preciso decidir ir.</h2>
+  <div class="route reveal" style="margin:26px 0">
+    <div class="node">Vitória<small>origem</small></div><div class="road"></div>
+    <div class="node">BR-101<small>rodovia principal</small></div><div class="road"></div>
+    <div class="node">Alfredo Chaves<small>saída de propósito</small></div><div class="road"></div>
+    <div class="node end">Matilde<small>ES-383, 18 km</small></div>
+  </div>
+  <div class="grid g2 reveal">
+    <div class="card"><h3>O que muda</h3><ul><li>A decisão acontece antes da viagem</li><li>Sem placa de estrada, a captação precisa ser direcionada</li><li>Cerca de 1h40 de Vitória e sem transporte público</li></ul></div>
+    <div class="card"><h3>Como virar o jogo</h3><ul><li>Enviar mapa, rota e parada sugerida pelo WhatsApp</li><li>Vender 2 ou 3 diárias para compensar o desvio</li><li>Transformar o isolamento em argumento: longe do barulho, perto da cachoeira</li></ul></div>
+  </div>
+</section>
+
+<!-- 12 CRONOGRAMA -->
+<section class="slide">
+  <div class="kicker">Cronograma</div>
+  <h2>Seis meses, passo a passo</h2>
+  <div class="tl" style="margin-top:44px"><div class="fill"></div>
+    <div class="step"><h3>Mês 1</h3><p>Corrigir bio, Google, telefone, WhatsApp e OTAs.</p></div>
+    <div class="step"><h3>Mês 2</h3><p>Fotos e vídeos reais. Escolher e contratar os primeiros criadores.</p></div>
+    <div class="step"><h3>Mês 3</h3><p>Primeiras publicações e lançamento do pacote de meio de semana.</p></div>
+    <div class="step"><h3>Mês 4</h3><p>Lista no WhatsApp e primeira mensagem quinzenal.</p></div>
+    <div class="step"><h3>Mês 5</h3><p>Medir por origem e repetir os criadores que funcionaram.</p></div>
+    <div class="step"><h3>Mês 6</h3><p>Pós-venda, indicações e balanço das metas.</p></div>
+  </div>
+</section>
+
+<!-- 13 METRICAS -->
+<section class="slide">
+  <div class="kicker">Monitoramento</div>
+  <h2>O que vamos medir</h2>
+  <div class="grid g2" style="margin-top:20px">
+    <div>
+      <div class="bar"><span>Pontos de contato corrigidos<b>100%</b></span><div class="track"><div class="fillb" data-w="100"></div></div></div>
+      <div class="bar"><span>Ocupação de domingo a quinta<b>meta 40%</b></span><div class="track"><div class="fillb hi" data-w="40"></div></div></div>
+      <div class="bar"><span>Reservas diretas<b>meta 50%</b></span><div class="track"><div class="fillb hi" data-w="50"></div></div></div>
+      <div class="bar"><span>Contatos na lista do WhatsApp<b>meta 300</b></span><div class="track"><div class="fillb" data-w="60"></div></div></div>
+    </div>
+    <div class="card"><h3>Como acompanhar</h3><ul>
+      <li>Contatos no WhatsApp por criador, com etiqueta de origem</li><li>Reservas fechadas por canal</li><li>Novas avaliações e nota média no Google</li><li>Tempo de primeira resposta</li></ul></div>
+  </div>
+</section>
+
+<!-- 14 PROXIMOS PASSOS -->
+<section class="slide">
+  <div class="kicker">Próximos passos</div>
+  <h2>O que confirmar com o dono antes de começar</h2>
+  <div class="grid g2 reveal" style="margin-top:20px">
+    <div class="card"><span class="tag warn">Importante</span><h3 style="margin-top:10px">A pousada está à venda?</h3><p>Os anúncios públicos citam 10 quartos e 750 m². O plano precisa tratar isso com transparência.</p></div>
+    <div class="card"><h3>Quantos quartos são?</h3><p>O briefing diz 6. As fontes públicas dizem de 9 a 10.</p></div>
+    <div class="card"><h3>Acessibilidade</h3><p>Há degraus nos quartos e áreas comuns? Isso muda a mensagem para o público idoso.</p></div>
+    <div class="card"><h3>Histórico e tarifas</h3><p>Ocupação, ticket médio e tarifa atual para calibrar as metas.</p></div>
+  </div>
+</section>
+
+<!-- 15 FIM -->
+<section class="slide cover" style="text-align:left">
+  <div class="reveal">
+    <div class="kicker">Obrigado</div>
+    <h1>Vila Mathilde</h1>
+    <p class="lead" style="margin-top:20px">Sossego entre montanhas e cachoeiras, a um custo que cabe no bolso.</p>
+  </div>
+</section>
+
+</div>
+
+<div id="nav"><button id="prev" aria-label="Anterior">‹</button><span id="count"></span><button id="next" aria-label="Próximo">›</button></div>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')],stage=document.getElementById('stage');
+let cur=0;
+function fit(){const s=Math.min(innerWidth/1280,(innerHeight-60)/720);stage.style.transform=`translate(-50%,-50%) scale(${s})`}
+addEventListener('resize',fit);fit();
+// sem viúvas: junta as duas últimas palavras
+document.querySelectorAll('h1,h2,h3,p,li').forEach(el=>{
+  if(el.children.length) return;
+  el.textContent=el.textContent.replace(/\s+(\S+)\s*$/,' $1');
+});
+function count(el){const t=+el.dataset.count,d=+el.dataset.dec||0;const t0=performance.now();
+  (function f(n){const p=Math.min((n-t0)/1400,1);el.textContent=(t*(1-Math.pow(1-p,3))).toFixed(d).replace('.',',').replace(/\B(?=(\d{3})+(?!\d))/g,d?'':'.');if(p<1)requestAnimationFrame(f)})(t0)}
+function enter(i){
+  const s=slides[i];
+  s.querySelectorAll('[data-count]').forEach(count);
+  s.querySelectorAll('.fillb').forEach(b=>{b.style.width='0';requestAnimationFrame(()=>requestAnimationFrame(()=>b.style.width=b.dataset.w+'%'))});
+}
+function go(n){
+  n=Math.max(0,Math.min(slides.length-1,n));
+  slides.forEach((s,i)=>{s.classList.toggle('active',i===n);s.classList.toggle('past',i<n)});
+  cur=n;enter(n);
+  document.getElementById('count').textContent=`${n+1} / ${slides.length}`;
+  document.getElementById('progress').style.width=((n+1)/slides.length*100)+'%';
+  history.replaceState(null,'','#'+(n+1));
+}
+document.getElementById('next').onclick=()=>go(cur+1);
+document.getElementById('prev').onclick=()=>go(cur-1);
+addEventListener('keydown',e=>{
+  if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(cur+1)}
+  if(['ArrowLeft','PageUp'].includes(e.key))go(cur-1);
+  if(e.key==='Home')go(0);if(e.key==='End')go(slides.length-1);
+});
+let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX);
+addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>50)go(cur+(dx<0?1:-1));x0=null});
+document.querySelectorAll('.sq').forEach(q=>q.onclick=()=>q.classList.toggle('open'));
+document.querySelectorAll('.flip').forEach(f=>f.onclick=()=>f.classList.toggle('on'));
+document.querySelectorAll('#funnelTabs .tab').forEach(t=>t.onclick=()=>{
+  const panels=[...t.closest('.slide').querySelectorAll('.panel')];
+  document.querySelectorAll('#funnelTabs .tab').forEach(b=>b.classList.toggle('on',b===t));
+  panels.forEach((p,i)=>p.classList.toggle('on',i==t.dataset.p));
+});
+addEventListener('hashchange',()=>go((parseInt(location.hash.slice(1))||1)-1));
+go((parseInt(location.hash.slice(1))||1)-1);
+</script>
+</body>
+</html>
