@@ -7,12 +7,12 @@
 <title>Plano de Marketing Digital Vila Mathilde</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 <style>
 @font-face{font-family:'Bootzy TM';src:local('Bootzy TM'),local('BootzyTM'),url('fonts/BootzyTM.ttf') format('truetype');font-display:swap}
 :root{--bg:#14291c;--ink:#ffffff;--bd:#86a98a;--muted:#dce7d9;--green:#9fd4a4;--green2:#6fb27c;--moss:#1f3d2a;--earth:#c8323c;--sand:#1b3524;--card:#1c3826;--line:#2d5039;--alert:#ff8a8a;--onG:#10241a}
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%;overflow:hidden;color:var(--ink);font-family:"Source Serif 4",Georgia,serif}
+html,body{height:100%;overflow:hidden;color:var(--ink);font-family:"Special Elite",monospace}
 body{background-color:#0c1f15;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .05 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
 #bg{position:fixed;inset:0;width:100%;height:100%;pointer-events:none}
 #stage{position:absolute;left:50%;top:50%;width:1280px;height:720px;transform-origin:center;counter-reset:plat}
@@ -22,10 +22,10 @@ body{background-color:#0c1f15;background-image:url("data:image/svg+xml;utf8,<svg
 .slide.past{transform:translateX(-60px)}
 .slide>*:not(.sprig):not(.bigtrain):not(.bigrail){position:relative;z-index:1}
 h1,h2,h3,p,li{text-wrap:balance}p,li{text-wrap:pretty}
-h1{font-family:'Bootzy TM','Fraunces',Georgia,serif;font-size:84px;line-height:1;color:var(--ink);font-weight:400;letter-spacing:.03em}
-h2{font-family:'Bootzy TM','Fraunces',Georgia,serif;font-size:44px;line-height:1.1;color:var(--ink);margin-bottom:12px;font-weight:400;letter-spacing:.03em}
+h1{font-family:'Bootzy TM','Special Elite',monospace;font-size:84px;line-height:1;color:var(--ink);font-weight:400;letter-spacing:.03em}
+h2{font-family:'Bootzy TM','Special Elite',monospace;font-size:44px;line-height:1.1;color:var(--ink);margin-bottom:12px;font-weight:400;letter-spacing:.03em}
 h2::after{content:"";display:block;height:7px;width:170px;margin-top:12px;background:repeating-linear-gradient(90deg,var(--earth) 0 20px,transparent 20px 30px);opacity:.8}
-h3{font-family:'Bootzy TM','Fraunces',Georgia,serif;font-size:23px;margin-bottom:8px;color:var(--ink);font-weight:400;letter-spacing:.03em}
+h3{font-family:'Bootzy TM','Special Elite',monospace;font-size:23px;margin-bottom:8px;color:var(--ink);font-weight:400;letter-spacing:.03em}
 .kicker{display:inline-block;align-self:flex-start;font-family:'Special Elite',monospace;font-size:14px;letter-spacing:.14em;text-transform:uppercase;background:var(--green);color:var(--onG);padding:5px 14px 4px;margin-bottom:16px;border-radius:2px;box-shadow:3px 3px 0 var(--line)}
 .slide:not(.cover) .kicker::before{content:"Plataforma " counter(plat,decimal-leading-zero) " · "}
 .lead{font-size:24px;color:var(--muted);line-height:1.4;max-width:880px;margin-bottom:24px;font-style:italic}
@@ -34,7 +34,7 @@ p{font-size:20px;line-height:1.45}
 .card{background:var(--card);border:1.5px solid var(--bd);border-radius:3px;padding:20px 24px;box-shadow:5px 5px 0 var(--line);outline:1px dashed var(--line);outline-offset:4px}
 .card:nth-child(odd){rotate:-.35deg}.card:nth-child(even){rotate:.35deg}
 .card p,.card li{font-size:18px}
-.big{font-family:'Bootzy TM','Fraunces',Georgia,serif;font-size:62px;color:var(--green);line-height:1;font-weight:400}
+.big{font-family:'Bootzy TM','Special Elite',monospace;font-size:62px;color:var(--green);line-height:1;font-weight:400}
 .small{font-size:15px;color:var(--muted);margin-top:6px;font-style:italic}
 .tag{display:inline-block;color:var(--green);border:2px solid var(--green);border-radius:3px;padding:3px 12px 2px;font-family:'Special Elite',monospace;font-size:14px;text-transform:uppercase;letter-spacing:.08em;rotate:-2deg}
 .warn{color:var(--alert);border-color:var(--alert)}
@@ -49,7 +49,7 @@ ul{padding-left:22px}li{margin:6px 0}
 .cover .stage3d{position:absolute!important}
 .stage3d{position:absolute;left:0;right:0;bottom:0;height:640px;z-index:0;pointer-events:none}
 body.has3d .bigtrain,body.has3d .bigrail{display:none}
-.tagline{font-family:'Bootzy TM','Fraunces',Georgia,serif;font-style:normal;font-weight:400;letter-spacing:.03em;font-size:46px;color:var(--green2);margin:14px 0 18px}
+.tagline{font-family:'Bootzy TM','Special Elite',monospace;font-style:normal;font-weight:400;letter-spacing:.03em;font-size:46px;color:var(--green2);margin:14px 0 18px}
 .cover .bigrail{position:absolute;left:0;right:0;bottom:52px;height:22px;z-index:0;
   background:linear-gradient(var(--ink),var(--ink)) 0 0/100% 4px no-repeat,repeating-linear-gradient(90deg,var(--earth) 0 10px,transparent 10px 34px) 0 8px/100% 12px no-repeat}
 .bigtrain{position:absolute;bottom:68px;width:460px;left:-520px;z-index:0;color:var(--green)}
@@ -198,7 +198,7 @@ body.has3d .bigtrain,body.has3d .bigrail{display:none}
 @keyframes run{to{left:calc(100% - 104px)}}
 .stn{--ink:#1f4a2c;--green:#2f5d3a;position:absolute;left:var(--x);width:252px;translate:-50% 0;background:#fff;border-radius:18px;padding:12px 18px 14px;box-shadow:6px 7px 0 var(--green2);opacity:0}
 .stn.up{bottom:238px}.stn.down{top:238px}
-.stn b{font-family:'Bootzy TM','Fraunces',Georgia,serif;font-weight:400;font-size:34px;letter-spacing:.03em;color:#2f5d3a;display:block;line-height:1.1;margin-bottom:4px}
+.stn b{font-family:'Bootzy TM','Special Elite',monospace;font-weight:400;font-size:34px;letter-spacing:.03em;color:#2f5d3a;display:block;line-height:1.1;margin-bottom:4px}
 .stn p{font-size:16.5px;line-height:1.35;color:#1f4a2c}
 .stn::after{content:"";position:absolute;left:50%;width:4px;height:48px;background:#fff;translate:-50% 0}
 .stn.up::after{top:100%}.stn.down::after{bottom:100%}
@@ -289,6 +289,35 @@ h2::after{display:none}
 @keyframes pop{from{opacity:0;translate:-50% 10px}to{opacity:1;translate:-50% 0}}
 .tl .fill{transition:width 3s ease .5s}
 .cover.active .bigtrain{animation-duration:4.6s}
+/* bilhete clean: canhoto no topo, picote e entalhes */
+.card{padding:58px 34px 28px;
+ background-color:#fff;
+ background-image:
+  radial-gradient(circle 11px at 0 36px,#10261a 97%,transparent 100%),
+  radial-gradient(circle 11px at 100% 36px,#10261a 97%,transparent 100%),
+  repeating-linear-gradient(90deg,#a9c2a5 0 6px,transparent 6px 12px),
+  linear-gradient(#eaf2e5,#eaf2e5);
+ background-repeat:no-repeat;
+ background-position:0 0,0 0,16px 35px,0 0;
+ background-size:100% 100%,100% 100%,calc(100% - 32px) 2px,100% 36px}
+.card::before{display:block;content:"BILHETE Nº " counter(tk,decimal-leading-zero);position:absolute;top:0;left:34px;right:auto;height:36px;line-height:36px;border:0;padding:0;font-family:'Special Elite',monospace;font-size:12px;letter-spacing:.16em;color:#4f8a5b;white-space:nowrap;overflow:visible}
+.card::after{display:block;content:"VILA MATHILDE";position:absolute;top:0;right:34px;left:auto;bottom:auto;height:36px;line-height:36px;width:auto;background:none;translate:0 0;transition:none;font-family:'Special Elite',monospace;font-size:12px;letter-spacing:.16em;color:#7fa07c;white-space:nowrap;pointer-events:none}
+.card:hover::after{translate:0 0}
+.card.cli,.card{overflow:hidden}
+/* duas fontes: Bootzy TM e Special Elite */
+*{font-style:normal!important}
+.card p,.card li{font-size:21px;line-height:1.4}
+.card h3{font-size:30px}
+.lead{font-size:22px}
+.stn p{font-size:16px}.stn.s p{font-size:15px}.stn.xl p{font-size:18px}
+.sq li{font-size:15.5px}
+.cli .card p,.cli .card li{font-size:17px}
+/* linha do tempo: linha simples, sem aspecto de trilho */
+.tlx .line{height:3px;top:190px;background:rgba(255,255,255,.85);border-radius:3px}
+.tl::before{height:3px;top:20px;background:rgba(255,255,255,.7);border-radius:3px}
+.tl .fill{top:20px}
+.g4 .card::after{display:none}
+.tlx .line{top:213px}
 @media print{html,body{overflow:visible}#nav,#rail,#train{display:none}}
 </style>
 </head>
@@ -468,7 +497,7 @@ h2::after{display:none}
   <div class="kicker">Posicionamento</div>
   <h2>Uma mensagem simples que transmite sossego</h2>
   <div class="card reveal" style="margin:18px 0 22px;padding:38px 46px">
-    <p style="color:var(--green);font-family:'Bootzy TM','Fraunces',Georgia,serif;font-size:50px;line-height:1.15">Venha descansar. Matilde espera por você.</p>
+    <p style="color:var(--green);font-family:'Bootzy TM','Special Elite',monospace;font-size:50px;line-height:1.15">Venha descansar. Matilde espera por você.</p>
     <p style="color:var(--muted);font-size:21px;margin-top:14px">Mensagem simples e calma. Variações: "Aqui o dia passa devagar." e "O trem da pressa não passa por Matilde. Desça e fique."</p>
   </div>
   <div class="grid g3" style="width:100%">
