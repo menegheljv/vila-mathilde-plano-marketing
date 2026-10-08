@@ -13,15 +13,15 @@
   scene.fog = new THREE.Fog(BG, 16, 44);
   var cam = new THREE.PerspectiveCamera(32, W / H, 0.1, 200);
   scene.add(new THREE.HemisphereLight(0xffffff, 0x1b3a28, 0.95));
-  var sun = new THREE.DirectionalLight(0xfff1d6, 1.15); sun.position.set(-6, 10, 9); scene.add(sun);
+  var sun = new THREE.DirectionalLight(0xffffff, 1.15); sun.position.set(-6, 10, 9); scene.add(sun);
   var rim = new THREE.DirectionalLight(0x9fd4a4, 0.55); rim.position.set(9, 3, -6); scene.add(rim);
 
   function M(c, o) { return new THREE.MeshStandardMaterial(Object.assign({ color: c, roughness: 0.55, metalness: 0.15 }, o || {})); }
   var mat = {
-    green: M(0x6fb27c), cream: M(0xefe8d3), dark: M(0x1d241d, { roughness: 0.7 }),
-    brass: M(0xc9a77a, { metalness: 0.6, roughness: 0.35 }), steel: M(0xcfd8cf, { metalness: 0.7, roughness: 0.3 }),
-    wood: M(0x8a6d45, { roughness: 0.9 }), roof: M(0x2f5d3a), glass: M(0x0e1a12, { roughness: 0.2, metalness: 0.4 }),
-    light: M(0xfff3c4, { emissive: 0xffe9a0, emissiveIntensity: 0.9 })
+    green: M(0x6fb27c), cream: M(0xffffff), dark: M(0x0e2217, { roughness: 0.7 }),
+    brass: M(0xc8323c, { metalness: 0.6, roughness: 0.35 }), steel: M(0xe9efe6, { metalness: 0.7, roughness: 0.3 }),
+    wood: M(0xc8323c, { roughness: 0.9 }), roof: M(0x2f5d3a), glass: M(0x0b1f14, { roughness: 0.2, metalness: 0.4 }),
+    light: M(0xffffff, { emissive: 0xffffff, emissiveIntensity: 0.9 })
   };
 
   function box(w, h, d, m, x, y, z, p) { var o = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), m); o.position.set(x, y, z); (p || train).add(o); return o; }
