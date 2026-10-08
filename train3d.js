@@ -92,9 +92,9 @@
     scene.add(sp); puffs.push({ s: sp, o: k / 18, z: (Math.random() - 0.5) * 0.4 });
   }
 
-  var START = -24, FINAL = 4.2, T_ARRIVE = 4.2, t0 = 0, raf = 0, host = null, mx = 0, lastX = START;
+  var START = -24, FINAL = 4.2, T_ARRIVE = 5.4, t0 = 0, raf = 0, host = null, mx = 0, lastX = START;
   window.addEventListener('mousemove', function (e) { mx = (e.clientX / innerWidth - 0.5) * 2; });
-  function ease(p) { return 1 - Math.pow(1 - p, 3); }
+  function ease(p) { return p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2; }
 
   function frame(now) {
     raf = requestAnimationFrame(frame);
@@ -122,8 +122,8 @@
       q.s.material.opacity = 0.55 * Math.pow(1 - a, 1.4);
     });
     /* câmera */
-    var sway = Math.sin(t * 0.4) * 0.9;
-    cam.position.set(8.4 + sway + mx * 0.8, 3.0 + Math.sin(t * 0.3) * 0.15, 13.6);
+    var sway = Math.sin(t * 0.22) * 0.9;
+    cam.position.set(8.4 + sway + mx * 0.8, 3.0 + Math.sin(t * 0.18) * 0.15, 13.6);
     cam.lookAt(3.0, 2.5, 0);
     renderer.render(scene, cam);
   }

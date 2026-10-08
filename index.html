@@ -272,6 +272,23 @@ h2::after{height:4px;width:64px;border-radius:4px;margin-top:14px;background:var
 /* conteudo um pouco menor */
 .slide:not(.cover)>*:not(.sprig){zoom:.9}
 h2::after{display:none}
+/* animacoes mais suaves */
+.slide{transform:translateX(24px);transition:opacity .9s cubic-bezier(.22,.61,.36,1),transform .9s cubic-bezier(.22,.61,.36,1)}
+.slide.past{transform:translateX(-24px)}
+.reveal>*{transform:translateY(10px);transition:opacity .9s ease,transform .9s cubic-bezier(.22,.61,.36,1)}
+.active .reveal>*:nth-child(1){transition-delay:.1s}.active .reveal>*:nth-child(2){transition-delay:.22s}.active .reveal>*:nth-child(3){transition-delay:.34s}.active .reveal>*:nth-child(4){transition-delay:.46s}
+.slide .card,.slide .node,.slide .sq,.slide .tab{transition:translate .5s cubic-bezier(.22,.61,.36,1),scale .5s cubic-bezier(.22,.61,.36,1),box-shadow .5s ease,background-color .5s ease,border-color .5s ease,opacity .9s ease,transform .9s cubic-bezier(.22,.61,.36,1)}
+.card:hover,.card.on{translate:0 -4px}
+.panel.on{animation:fade .7s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}}
+.flip .in{transition:transform 1s cubic-bezier(.22,.61,.36,1)}
+.fillb{transition:width 2s cubic-bezier(.22,.61,.36,1) .4s}
+#train{transition:left 2s cubic-bezier(.45,0,.2,1),opacity .6s ease}
+.active .tlx .runner{animation:run 6.4s cubic-bezier(.4,0,.3,1) forwards}
+.active .stn{animation:pop .9s cubic-bezier(.22,.61,.36,1) both;animation-delay:calc(var(--i)*.9s + .6s)}
+@keyframes pop{from{opacity:0;translate:-50% 10px}to{opacity:1;translate:-50% 0}}
+.tl .fill{transition:width 3s ease .5s}
+.cover.active .bigtrain{animation-duration:4.6s}
 @media print{html,body{overflow:visible}#nav,#rail,#train{display:none}}
 </style>
 </head>
