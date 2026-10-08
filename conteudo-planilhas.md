@@ -91,9 +91,9 @@ A planilha já tem as 3 linhas preenchidas (limite marcado em "PAREM DE ESCREVER
 
 | Concorrente | Site da empresa (falta preencher) | Em que somos melhores (ajuste sugerido) | Em que somos piores (ajuste sugerido) |
 |---|---|---|---|
-| Pedra Azul | Pesquisar o site oficial do destino e de uma pousada de referência | Silêncio e ambiente intimista (6 quartos), sem a lotação e os preços de fim de semana (R$ 250 a R$ 3.850) | Menos conhecida; menor infraestrutura de lazer e gastronomia |
-| Santa Teresa | Pesquisar o site da prefeitura/turismo local | Mais tranquila em dias de evento, enquanto Santa Teresa lota (Santa Jazz com 95% de ocupação) | Menor oferta de vinícolas, restaurantes e eventos |
-| Buenos Aires (Guarapari) | Pesquisar o site de uma pousada local de referência | Autenticidade e cachoeira gratuita de 70 m, sem a agitação do mall e das obras | Fica mais longe do mar e tem menos investimento em estrutura |
+| Pedra Azul (Pousada Peterle) | pousadapeterle.com.br (confirmar) | Silêncio e ambiente intimista (6 quartos), sem a lotação e os preços de fim de semana (R$ 250 a R$ 3.850) | Menos conhecida; menor infraestrutura de lazer e gastronomia |
+| Santa Teresa (Pousada La Sofia) | pousadalasofia.com.br | Mais tranquila em dias de evento, enquanto Santa Teresa lota (Santa Jazz com 95% de ocupação) | Menos eventos, vinícolas e restaurantes por perto. A La Sofia tem estrutura nova, restaurante aberto ao público e nota 8,7 |
+| Buenos Aires (Pousada Pedra d'Água) | A confirmar (aparece em Hotels.com e Travelocity) | Autenticidade e cachoeira gratuita de 70 m, sem a agitação do mall e das obras | Fica mais longe do mar e tem menos investimento em estrutura |
 
 Obs.: não achei os sites oficiais com segurança e prefiro não inventar endereço. Se você me passar quais pousadas concorrentes usou, eu completo.
 
