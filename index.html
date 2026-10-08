@@ -318,6 +318,36 @@ h2::after{display:none}
 .tl .fill{top:20px}
 .g4 .card::after{display:none}
 .tlx .line{top:213px}
+/* blocos mantem o formato: sem expandir, sem girar */
+.sq ul{display:block!important}.sq .hint{display:none!important}.sq{cursor:default}
+.sq:hover,.sq.open{translate:0 -3px}
+.flip{cursor:pointer}
+.flip .in{transform:none!important;transition:none!important}
+.face{backface-visibility:visible!important;transition:opacity .7s ease}
+.back{transform:none!important;opacity:0}
+.flip.on .back{opacity:1}
+.flip.on .face:first-child{opacity:0}
+.flip:hover{translate:0 0}
+/* corpo em Bootzy TM; Special Elite so em rotulos */
+html,body{font-family:'Bootzy TM','Special Elite',monospace;letter-spacing:.035em}
+h1,h2,h3{letter-spacing:.06em}
+.card p,.card li{font-size:18.5px;line-height:1.45}
+.card h3{font-size:27px}
+.card .small,.small{font-size:14.5px}
+.lead{font-size:20px}
+.stn p{font-size:14.5px}.stn.s p{font-size:14px}.stn.xl p{font-size:16.5px}
+.sq li{font-size:14.5px}
+.cli .card p,.cli .card li{font-size:16px}
+.panel.card p,.panel.card li{font-size:19px}
+.node{font-size:19px}.node small{font-size:14px}
+.face p{font-size:21px}.back p{font-size:24px}
+.big{letter-spacing:.02em}
+.card p,.card li{font-size:20px}
+.card .small,.small{font-size:15.5px}
+.sq li{font-size:17px;margin:3px 0}
+.stn p{font-size:15.5px}.stn.s p{font-size:15px}.stn.xl p{font-size:17.5px}
+.cli .card p,.cli .card li{font-size:17px}
+.panel.card p,.panel.card li{font-size:20px}
 @media print{html,body{overflow:visible}#nav,#rail,#train{display:none}}
 </style>
 </head>
