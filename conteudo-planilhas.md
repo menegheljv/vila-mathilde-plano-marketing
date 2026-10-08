@@ -169,6 +169,85 @@ Ninguém passa por Matilde de viagem. Para chegar, a pessoa precisa **sair da ro
 
 ---
 
+## 6b. Depois (Cliente): respostas do template
+
+**Como entregar uma experiência**
+- Recepção pessoal pelos anfitriões, que chamam o hóspede pelo nome.
+- Presente personalizado na chegada: caneca ou mini cesta de café da roça com bilhete com o nome dele.
+- Quarto impecável: lençóis e toalhas limpos e cheirosos, rede arrumada com cartão de boas-vindas.
+- Café da manhã regional, farto e fresco, com opção sem glúten e sem lactose.
+- Roteiro de 2 dias enviado pelo WhatsApp antes da chegada (cachoeira, estação, túnel) e uma mensagem durante a estadia perguntando se está tudo bem.
+- Despedida com o "Bilhete de Volta": cartão com desconto para a próxima estadia. A compra vira começo de relacionamento, e o contato segue no WhatsApp.
+
+**Como aumentar o tempo de vida do cliente (LTV)**
+- Guardar no cadastro do WhatsApp o aniversário, a data de casamento e as preferências (dieta, quarto, café).
+- Mensagem de aniversário simples e carinhosa, com convite para comemorar em Matilde.
+- "Bilhete de Volta": desconto na segunda estadia.
+- Terceira estadia com cortesia (café especial ou petisco de boas-vindas).
+- Mensagem quinzenal com datas livres no meio de semana, o clima e a agenda local (Festival de Inverno, verão das cachoeiras).
+- Meta: duas estadias por ano por hóspede, com foco no aposentado que volta fora de feriado.
+
+**Como provocar e estimular indicações**
+- O presente personalizado na chegada vira assunto: o hóspede mostra, fotografa e compartilha.
+- Cantinho fotogênico com a rede, as orquídeas e a placa da pousada, para ele marcar @pousadavilamathilde_oficial.
+- Pedido de avaliação no Google por mensagem e por cartão com QR code, no dia seguinte à saída.
+- Programa "Traga um amigo": os dois ganham, o hóspede indica e leva cortesia de café da manhã e o amigo ganha desconto.
+- Cartão com dois convites para o hóspede entregar a amigos.
+- Com autorização, depoimentos e vídeos curtos dos hóspedes viram conteúdo para Reels, TikTok e Facebook.
+
+## 6c. Durante (Lead): respostas do template
+
+**Sistema de captura de leads**
+- Parceria paga com criadores de turismo bem nichados (interior e natureza no ES, terceira idade, roteiros tranquilos), em Reels, TikTok e vídeos no Facebook. Posts estáticos engajam menos e ficam em segundo plano.
+- Link ou QR code para o WhatsApp em toda publicação, com mensagem própria por criador (ex.: "Vim pelo @criador") para medir qual traz mais contatos.
+- QR code com mensagem pronta no centrinho de Matilde, na estação, na cachoeira e na pousada, para captar o visitante de excursão que hoje vai embora no mesmo dia.
+- Parceria com agências e motoristas de excursão para incluir uma parada com café ou um pacote com pernoite.
+- Isca digital: "Roteiro de 2 dias de sossego em Matilde" em PDF, entregue pelo WhatsApp.
+- Lista de espera para feriados e para o Festival de Inverno, e Google Perfil da Empresa corrigido, com botão do WhatsApp.
+
+**Sistema de contato com leads**
+- WhatsApp Business como canal único: mensagem de saudação e de ausência, catálogo de quartos e pacotes, respostas rápidas e etiquetas por origem (qual criador, Google, indicação, excursão).
+- Fluxo de nutrição: boas-vindas com o roteiro; depois mensagem quinzenal com o clima, a cachoeira cheia depois da chuva, a agenda local e as datas livres no meio de semana.
+- Mensagens segmentadas: o aposentado e o filho adulto que reserva para os pais recebem textos diferentes.
+- Primeira resposta em até 15 minutos no horário comercial (padrão interno sugerido, não é benchmark publicado).
+- Tom humano e sem excesso de mensagens. Para o público idoso, oferecer também áudio e ligação.
+- Registrar no cadastro aniversário e preferências para usar depois no relacionamento.
+
+**Estratégia de conversão de vendas**
+- A estrutura física é o argumento que fecha a venda: lençóis e toalhas limpos e cheirosos, quarto escuro e silencioso, e café da manhã regional e gostoso, com opção sem glúten e sem lactose.
+- Mostrar isso antes da reserva: fotos e vídeos reais do quarto e da mesa do café, e trechos de avaliações reais do Google (nota 4,7).
+- Tarifa direta 5% a 10% abaixo da OTA e pacote "Sossego de Meio de Semana" (domingo a quinta) para aposentados.
+- Pacote de 2 ou 3 diárias para compensar o desvio da rodovia, com mapa, rota e sugestão de parada enviados pelo WhatsApp.
+- Atendimento humano: pessoa, áudio ou ligação, e não só mensagem automática.
+- Facilitar o fechamento: sinal via Pix, política de cancelamento clara e escassez honesta (são só 6 quartos, feriados enchem).
+
+## 6d. Antes (Prospecto): respostas do template
+
+**Público-alvo e persona**
+- PÚBLICO PRIMÁRIO: aposentados de terceira idade (60 anos ou mais) da Grande Vitória e do interior do ES, que buscam sossego e hoje viajam de excursão e voltam no mesmo dia.
+- PÚBLICO SECUNDÁRIO (hipótese): filhos adultos, de 30 a 50 anos, que pesquisam e reservam para os pais. Chegam pelo Reels e pelo TikTok.
+- PERSONA: Seu Antônio, 65 anos, aposentado, casado ou viúvo, mora na Grande Vitória, renda fixa e atento ao custo.
+- Objetivos: quer sossego, rede, jardim e café da roça, e conhecer a cachoeira sem pressa.
+- Dores: cansa de viajar horas para ficar poucas horas, evita multidão e escada exigente, desconfia de pagamento antecipado.
+- Como decide: Google e indicação de amigo ou filho; usa WhatsApp e Facebook mais que Instagram; quer falar com uma pessoa antes de reservar.
+- Frase dele: "Quero conhecer a cachoeira sem pressa e dormir em paz."
+- (Persona e público secundário são hipóteses a validar com o dono da pousada.)
+
+**Mensagem para o público-alvo (USP, linguagem e gatilhos)**
+- USP: "Seis quartos, uma rede com vista para as orquídeas e o café da roça. O sossego de Matilde, a uma caminhada da maior cachoeira do Espírito Santo, por um custo menor que o das outras serras capixabas."
+- Mensagem simples que transmite sossego: "Venha descansar. Matilde espera por você." Variações: "Aqui o dia passa devagar." e "O trem da pressa não passa por Matilde. Desça e fique."
+- Conceito do plano: "De volta aos trilhos." Matilde nasceu do trem, e a pousada volta para a linha.
+- LINGUAGEM: acolhedora, simples e direta, com frases curtas, letra grande e sem gíria. Ex.: "A gente te espera."
+- GATILHOS MENTAIS: prova social (Google 4,7 e depoimentos reais), escassez honesta (só 6 quartos), segurança (pode ligar e falar com a gente), nostalgia (estação de 1910, herança italiana) e preço (custo menor que o da região).
+
+**Mídias para atingir o público-alvo**
+- Reels, TikTok e vídeos no Facebook, produzidos com criadores de turismo nichados. Posts estáticos engajam menos.
+- Google Perfil da Empresa: fotos, respostas às avaliações e botão do WhatsApp.
+- WhatsApp Business: catálogo e respostas rápidas para fechar a reserva.
+- Facebook e grupos de WhatsApp de aposentados, para o público primário.
+- Parcerias locais: prefeitura, estação (centro cultural), guias e agências de excursão.
+- OTAs (Booking e outras) com o cadastro corrigido, como vitrine.
+
 ## Diferencial de custo (destino)
 
 Matilde custa menos que a região, e isso entra na análise de concorrência como "em que somos melhores" nas três linhas:

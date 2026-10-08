@@ -13,6 +13,9 @@ Abra `index.html` no navegador (ou pela página do GitHub Pages). Use as setas d
 | `01-matriz-swot.xlsx` | Matriz SWOT, 7 itens por quadrante |
 | `02-objetivos-smart.xlsx` | Três objetivos SMART |
 | `03-analise-competitiva.xlsx` | Visão geral da concorrência |
+| `04-pos-venda-cliente.xlsx` | Depois (Cliente): experiência, tempo de vida e indicações |
+| `05-durante-lead.xlsx` | Durante (Lead): captura, contato e conversão |
+| `06-antes-prospecto.xlsx` | Antes (Prospecto): público, persona, USP, linguagem, gatilhos e mídias |
 | `conteudo-planilhas.md` | Texto completo, persona, funil e pontos a confirmar |
 
 ## Perfil oficial
