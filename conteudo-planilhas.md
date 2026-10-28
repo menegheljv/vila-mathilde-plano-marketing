@@ -248,6 +248,35 @@ Ninguém passa por Matilde de viagem. Para chegar, a pessoa precisa **sair da ro
 - Parcerias locais: prefeitura, estação (centro cultural), guias e agências de excursão.
 - OTAs (Booking e outras) com o cadastro corrigido, como vitrine.
 
+## 6e. KPIs por etapa do funil
+
+**KPIs para Topo de Funil**
+- Alcance e visualizações dos vídeos: Mede quantas pessoas do público veem os Reels, TikToks e vídeos no Facebook, por criador parceiro. É o primeiro sinal de que a mensagem chega ao aposentado e ao filho que reserva para ele.
+- Cliques no link do WhatsApp (e custo por clique): Mostra quantos curiosos saem da publicação e vão falar com a pousada. Liga o conteúdo ao objetivo de formar a lista de contatos.
+- Visualizações do Google Perfil da Empresa: O Google é a principal fonte de pesquisa do público. Medir mostra se a correção do perfil traz gente nova.
+
+**KPIs para Meio de Funil**
+- Contatos novos no WhatsApp, por origem: Conta quem entrou na lista vindo de criador, QR code, excursão ou Google. Acompanha a meta de 300 contatos e mostra qual parceria vale repetir.
+- Tempo da primeira resposta: Meta de até 15 minutos no horário comercial. O lead esfria rápido e o público idoso quer falar com uma pessoa.
+- Respostas às mensagens quinzenais: Mostra se o contato mantém o interesse sem cansar: quantos respondem, pedem data ou saem da lista.
+
+**KPIs para Fundo de Funil**
+- Taxa de conversão de contato em reserva: Reservas fechadas divididas pelos contatos recebidos. Diz se a estrutura, o café e a oferta estão convencendo.
+- Percentual de reservas diretas: Meta de 50%. Cada reserva direta evita a comissão de 15% a 25% das OTAs.
+- Ocupação de domingo a quinta: Meta de 40%. Mede o objetivo principal do pacote Sossego de Meio de Semana.
+- Custo por reserva: Soma do investimento (criadores e mídia) dividida pelas reservas. Mostra se a parceria paga se paga.
+
+**KPIs para Retenção**
+- Taxa de retorno: Hóspedes com segunda estadia, incluindo os que usam o Bilhete de Volta. Meta de duas estadias por ano por hóspede, que sustenta o tempo de vida do cliente.
+- Novas avaliações e nota no Google: O hóspede satisfeito avalia. Meta de manter 4,7 ou mais e somar novas avaliações depois de cada estadia.
+- Indicações recebidas: Quantos hóspedes vieram por indicação do programa Traga um amigo. Mede se o presente e o cantinho fotogênico geram boca a boca.
+
+Fonte: metas dos objetivos SMART do plano. Linha de base a medir nos primeiros 60 dias, pois não há benchmark público de conversão e custo por reserva para pousadas (diagnóstico de mercado).
+
+## 6f. Calendário estratégico (novembro de 2026)
+
+O arquivo `08-calendario-estrategico.xlsx` traz 24 publicações em 4 semanas, com data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
+
 ## Diferencial de custo (destino)
 
 Matilde custa menos que a região, e isso entra na análise de concorrência como "em que somos melhores" nas três linhas:
