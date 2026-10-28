@@ -274,7 +274,7 @@ Não existe número público de conversão e custo por reserva para pousadas. No
 
 ## 6f. Calendário estratégico (novembro e dezembro de 2026)
 
-O arquivo `08-calendario-estrategico.xlsx` traz 51 publicações em 9 semanas, de 2 de novembro a 31 de dezembro, com data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
+O arquivo `08-calendario-estrategico.xlsx` traz 25 publicações, três por semana em dias alternados (segunda, quarta e sexta), de 2 de novembro a 30 de dezembro, com conteúdo útil para quem decide a viagem, com data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
 
 ## Diferencial de custo (destino)
 
