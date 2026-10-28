@@ -17,7 +17,7 @@ Abra `index.html` no navegador (ou pela página do GitHub Pages). Use as setas d
 | `05-durante-lead.xlsx` | Durante (Lead): captura, contato e conversão |
 | `06-antes-prospecto.xlsx` | Antes (Prospecto): público, persona, USP, linguagem, gatilhos e mídias |
 | `07-kpis.xlsx` | KPIs por etapa do funil, com justificativa |
-| `08-calendario-estrategico.xlsx` | Calendário de publicações de novembro de 2026 |
+| `08-calendario-estrategico.xlsx` | Calendário de publicações de novembro e dezembro de 2026 |
 | `conteudo-planilhas.md` | Texto completo, persona, funil e pontos a confirmar |
 
 ## Perfil oficial

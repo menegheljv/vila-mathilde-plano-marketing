@@ -273,9 +273,9 @@ Ninguém passa por Matilde de viagem. Para chegar, a pessoa precisa **sair da ro
 
 Fonte: metas dos objetivos SMART do plano. Linha de base a medir nos primeiros 60 dias, pois não há benchmark público de conversão e custo por reserva para pousadas (diagnóstico de mercado).
 
-## 6f. Calendário estratégico (novembro de 2026)
+## 6f. Calendário estratégico (novembro e dezembro de 2026)
 
-O arquivo `08-calendario-estrategico.xlsx` traz 24 publicações em 4 semanas, com data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
+O arquivo `08-calendario-estrategico.xlsx` traz 51 publicações em 9 semanas, de 2 de novembro a 31 de dezembro, com data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
 
 ## Diferencial de custo (destino)
 
