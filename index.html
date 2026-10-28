@@ -443,6 +443,33 @@ h1,h2,h3{letter-spacing:.06em}
 .pgrid div{font-size:15.5px}.pgrid div b{font-size:12px}.pbox h3{font-size:26px}
 .mm h3{font-size:30px!important}.mh{font-size:14px!important}.mg .md{font-size:17px!important;line-height:34px!important}.mg .md.mk{width:34px!important;height:34px!important;line-height:34px!important}
 .mm p{font-size:18px!important}.legend2{font-size:16px!important}
+/* kpis: maior e mais limpo */
+.slide:has(.kp)>*:not(.sprig){zoom:1}
+.slide:has(.kp) h2{font-size:38px;margin-bottom:6px}
+.slide:has(.kp) .kicker{margin-bottom:6px}
+.kp .card{padding:52px 22px 22px}
+.kp .card h3{font-size:26px;margin-bottom:12px}
+.kp .card ul{padding-left:0;list-style:none}
+.kp .card li{margin:0 0 16px;font-size:16px;line-height:1.3}
+.kp .card li b{display:block;font-weight:400;font-size:19px;color:#2f5d3a;margin-bottom:2px}
+.kp .card li em{display:block;font-style:normal;font-size:14px;letter-spacing:.06em;color:#4f8a5b;margin-bottom:3px}
+.kp .card li span{display:block;color:#1f4a2c}
+/* kpis em abas, com explicacao completa */
+.slide:has(.kpn)>*:not(.sprig){zoom:1}
+.slide:has(.kpn) h2{font-size:38px;margin-bottom:6px}
+.slide:has(.kpn) .kicker{margin-bottom:6px}
+.slide:has(.kpn) .tabs{margin-bottom:12px}
+.kpn{padding:50px 26px 14px!important}
+.kpn h3{font-size:24px!important;margin-bottom:8px!important}
+.kpn h3 span{font-size:15px;color:#4f8a5b;margin-left:10px;letter-spacing:.04em}
+.kr{display:grid;grid-template-columns:.9fr 1.25fr 1.5fr;gap:18px;padding:10px 0;border-top:1px solid #dbe7d5}
+.kr:first-of-type{border-top:0}
+.kn b{display:block;font-weight:400;font-size:19px;color:#2f5d3a;line-height:1.2}
+.kn em{display:block;font-style:normal;font-size:14px;color:#4f8a5b;margin-top:4px}
+.kc,.kw{font-size:15px;line-height:1.35;color:#1f4a2c}
+.kc i,.kw i{display:block;font-style:normal;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#7fa07c;margin-bottom:2px}
+.kpn{display:none}.kpn.on{display:block;animation:fade .6s ease}
+.kc,.kw{font-size:16.5px!important}.kn b{font-size:21px!important}.kn em{font-size:15px!important}.kc i,.kw i{font-size:12px!important}.kpn h3{font-size:26px!important}.kr{padding:12px 0!important}
 @media print{html,body{overflow:visible}#nav,#rail,#train{display:none}}
 </style>
 </head>
@@ -696,13 +723,9 @@ h1,h2,h3{letter-spacing:.06em}
 <!-- KPIS -->
 <section class="slide">
   <div class="kicker">Definição de KPIs</div>
-  <h2>Um indicador para cada etapa da viagem</h2>
-  <div class="grid g4 reveal kp" style="margin-top:14px">
-    <div class="card"><h3>Topo de funil</h3><ul><li><b>Alcance dos vídeos</b>Reels, TikTok e Facebook, por criador. Mostra se a mensagem chega.</li><li><b>Cliques no WhatsApp</b>Quantos saem do vídeo e falam com a pousada.</li><li><b>Visitas ao Google Perfil</b>Mostra se a correção do perfil traz gente nova.</li></ul></div>
-    <div class="card"><h3>Meio de funil</h3><ul><li><b>Contatos novos, por origem</b>Meta de 300 contatos. Mostra qual parceria repetir.</li><li><b>Primeira resposta</b>Em até 15 minutos. O lead esfria rápido.</li><li><b>Respostas às mensagens</b>Se o contato mantém o interesse sem cansar.</li></ul></div>
-    <div class="card"><h3>Fundo de funil</h3><ul><li><b>Contato em reserva</b>Se estrutura, café e oferta convencem.</li><li><b>Reservas diretas</b>Meta de 50%. Evita comissão de 15% a 25%.</li><li><b>Ocupação de domingo a quinta</b>Meta de 40%.</li><li><b>Custo por reserva</b>Mostra se a parceria se paga.</li></ul></div>
-    <div class="card"><h3>Retenção</h3><ul><li><b>Taxa de retorno</b>Meta de 2 estadias por ano, com o Bilhete de Volta.</li><li><b>Avaliações e nota no Google</b>Manter 4,7 ou mais.</li><li><b>Indicações recebidas</b>Mede o boca a boca do Traga um amigo.</li></ul></div>
-  </div>
+  <h2>O que a gente vai medir em cada etapa</h2>
+  <div class="tabs" id="kpTabs"><button class="tab on" data-p="0">Topo de funil</button><button class="tab" data-p="1">Meio de funil</button><button class="tab" data-p="2">Fundo de funil</button><button class="tab" data-p="3">Retenção</button></div>
+  <div class="panel card kpn on"><h3>Topo de funil <span>Ser encontrado por quem procura sossego</span></h3><div class="kr"><div class="kn"><b>Alcance dos vídeos</b></div><div class="kc"><i>Como medir</i>Número de pessoas que viram cada Reels, TikTok e vídeo no Facebook, separado por criador.</div><div class="kw"><i>Por que importa</i>Sem gente vendo o vídeo não existe contato. É o primeiro número que mostra se o criador que a gente pagou está chegando no público certo, e dá para comparar um criador com o outro.</div></div><div class="kr"><div class="kn"><b>Cliques no link do WhatsApp</b></div><div class="kc"><i>Como medir</i>Cliques no link da bio, no QR code e no botão do Google, cada um com a sua etiqueta de origem.</div><div class="kw"><i>Por que importa</i>Ver o vídeo não paga a conta. O clique mostra quem quis conversar de verdade com a pousada, e liga o conteúdo ao objetivo de formar a lista de contatos.</div></div><div class="kr"><div class="kn"><b>Visitas ao Google Perfil</b></div><div class="kc"><i>Como medir</i>Relatório do próprio Google Perfil da Empresa: buscas, ligações e pedidos de rota.</div><div class="kw"><i>Por que importa</i>O aposentado pesquisa no Google antes de decidir. Se o perfil corrigido passa a receber mais visitas, a primeira correção do plano está funcionando.</div></div></div><div class="panel card kpn"><h3>Meio de funil <span>Manter o interesse até a reserva</span></h3><div class="kr"><div class="kn"><b>Contatos novos no WhatsApp</b><em>Meta: 300 contatos</em></div><div class="kc"><i>Como medir</i>Quantas pessoas entram na lista por mês, anotando de onde veio cada uma: criador, QR code, excursão ou Google.</div><div class="kw"><i>Por que importa</i>Chegar a 300 contatos é um dos objetivos. Saber a origem mostra qual parceria vale pagar de novo e qual dá para largar.</div></div><div class="kr"><div class="kn"><b>Tempo da primeira resposta</b><em>Meta: até 15 minutos</em></div><div class="kc"><i>Como medir</i>Horário da mensagem recebida comparado com o da primeira resposta, no WhatsApp Business, em horário comercial.</div><div class="kw"><i>Por que importa</i>Quem pergunta e fica esperando acaba reservando em outro lugar. Responder rápido é o que mais depende da gente.</div></div><div class="kr"><div class="kn"><b>Respostas às mensagens quinzenais</b></div><div class="kc"><i>Como medir</i>A cada envio, contar quantos respondem, quantos pedem data e quantos saem da lista.</div><div class="kw"><i>Por que importa</i>Serve para acertar o tom e a frequência sem encher a paciência de ninguém.</div></div></div><div class="panel card kpn"><h3>Fundo de funil <span>Fechar a reserva</span></h3><div class="kr"><div class="kn"><b>Contato que vira reserva</b></div><div class="kc"><i>Como medir</i>Reservas fechadas no mês divididas pelos contatos que chegaram no mesmo mês.</div><div class="kw"><i>Por que importa</i>Diz se o quarto, o café e a oferta convencem. Se muita gente pergunta e pouca reserva, o problema está na oferta ou na resposta, e não no vídeo.</div></div><div class="kr"><div class="kn"><b>Reservas diretas</b><em>Meta: 50%</em></div><div class="kc"><i>Como medir</i>Reservas feitas por WhatsApp, telefone e Instagram divididas pelo total de reservas.</div><div class="kw"><i>Por que importa</i>Cada reserva direta evita a comissão de 15% a 25% das plataformas e deixa o hóspede no nosso contato, pronto para voltar.</div></div><div class="kr"><div class="kn"><b>Ocupação de domingo a quinta</b><em>Meta: 40%</em></div><div class="kc"><i>Como medir</i>Diárias vendidas de domingo a quinta divididas pelas diárias disponíveis nesses dias.</div><div class="kw"><i>Por que importa</i>É onde a pousada está mais vazia e quando o aposentado consegue viajar. Mede direto o pacote Sossego de Meio de Semana.</div></div></div><div class="panel card kpn"><h3>Retenção <span>Fazer o hóspede voltar e indicar</span></h3><div class="kr"><div class="kn"><b>Taxa de retorno</b><em>Meta: 2 estadias por ano</em></div><div class="kc"><i>Como medir</i>Hóspedes que voltam, incluindo quem usou o Bilhete de Volta, divididos pelos hóspedes do período.</div><div class="kw"><i>Por que importa</i>Segurar um hóspede custa menos que conquistar outro, e é isso que aumenta o tempo de vida do cliente.</div></div><div class="kr"><div class="kn"><b>Avaliações e nota no Google</b><em>Meta: nota 4,7 ou mais</em></div><div class="kc"><i>Como medir</i>Quantas avaliações novas chegam depois de cada estadia e qual é a nota média.</div><div class="kw"><i>Por que importa</i>A avaliação nova é o que convence o próximo aposentado desconfiado a reservar.</div></div><div class="kr"><div class="kn"><b>Indicações recebidas</b></div><div class="kc"><i>Como medir</i>Perguntar na reserva como conheceu a pousada e contar quem veio pelo Traga um amigo.</div><div class="kw"><i>Por que importa</i>Mostra se o presente na chegada e o cantinho de fotos fazem o hóspede falar da pousada para os outros.</div></div></div>
 </section>
 
 <!-- CALENDARIO -->
@@ -818,6 +841,7 @@ document.querySelectorAll('.chip[data-t]').forEach(c=>c.addEventListener('click'
 document.querySelector('#calPop .pclose').onclick=()=>document.getElementById('calPop').hidden=true;
 document.getElementById('calPop').addEventListener('click',e=>{if(e.target.id==='calPop')e.target.hidden=true});
 document.querySelectorAll('#calTabs .tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('#calTabs .tab').forEach(b=>b.classList.toggle('on',b===t));document.querySelectorAll('.calmonth').forEach((m,i)=>m.classList.toggle('on',i==t.dataset.m))});
+document.querySelectorAll('#kpTabs .tab').forEach(t=>t.onclick=()=>{const sl=t.closest('.slide');sl.querySelectorAll('#kpTabs .tab').forEach(b=>b.classList.toggle('on',b===t));sl.querySelectorAll('.kpn').forEach((p,i)=>p.classList.toggle('on',i==t.dataset.p))});
 document.querySelectorAll('.card').forEach(c=>c.addEventListener('click',()=>c.classList.toggle('on')));
 document.querySelectorAll('.flip').forEach(f=>f.onclick=()=>f.classList.toggle('on'));
 document.querySelectorAll('#funnelTabs .tab').forEach(t=>t.onclick=()=>{

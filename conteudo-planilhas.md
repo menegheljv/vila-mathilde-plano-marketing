@@ -250,28 +250,27 @@ Ninguém passa por Matilde de viagem. Para chegar, a pessoa precisa **sair da ro
 
 ## 6e. KPIs por etapa do funil
 
-**KPIs para Topo de Funil**
-- Alcance e visualizações dos vídeos: Mede quantas pessoas do público veem os Reels, TikToks e vídeos no Facebook, por criador parceiro. É o primeiro sinal de que a mensagem chega ao aposentado e ao filho que reserva para ele.
-- Cliques no link do WhatsApp (e custo por clique): Mostra quantos curiosos saem da publicação e vão falar com a pousada. Liga o conteúdo ao objetivo de formar a lista de contatos.
-- Visualizações do Google Perfil da Empresa: O Google é a principal fonte de pesquisa do público. Medir mostra se a correção do perfil traz gente nova.
+**Topo de funil** (objetivo: ser encontrado por quem procura sossego)
+- Alcance dos vídeos. Como medir: Número de pessoas que viram cada Reels, TikTok e vídeo no Facebook, separado por criador. Por que importa: Sem gente vendo o vídeo não existe contato. É o primeiro número que mostra se o criador que a gente pagou está chegando no público certo, e dá para comparar um criador com o outro.
+- Cliques no link do WhatsApp. Como medir: Cliques no link da bio, no QR code e no botão do Google, cada um com a sua etiqueta de origem. Por que importa: Ver o vídeo não paga a conta. O clique mostra quem quis conversar de verdade com a pousada, e liga o conteúdo ao objetivo de formar a lista de contatos.
+- Visitas ao Google Perfil. Como medir: Relatório do próprio Google Perfil da Empresa: buscas, ligações e pedidos de rota. Por que importa: O aposentado pesquisa no Google antes de decidir. Se o perfil corrigido passa a receber mais visitas, a primeira correção do plano está funcionando.
 
-**KPIs para Meio de Funil**
-- Contatos novos no WhatsApp, por origem: Conta quem entrou na lista vindo de criador, QR code, excursão ou Google. Acompanha a meta de 300 contatos e mostra qual parceria vale repetir.
-- Tempo da primeira resposta: Meta de até 15 minutos no horário comercial. O lead esfria rápido e o público idoso quer falar com uma pessoa.
-- Respostas às mensagens quinzenais: Mostra se o contato mantém o interesse sem cansar: quantos respondem, pedem data ou saem da lista.
+**Meio de funil** (objetivo: manter o interesse até a reserva)
+- Contatos novos no WhatsApp (Meta: 300 contatos). Como medir: Quantas pessoas entram na lista por mês, anotando de onde veio cada uma: criador, QR code, excursão ou Google. Por que importa: Chegar a 300 contatos é um dos objetivos. Saber a origem mostra qual parceria vale pagar de novo e qual dá para largar.
+- Tempo da primeira resposta (Meta: até 15 minutos). Como medir: Horário da mensagem recebida comparado com o da primeira resposta, no WhatsApp Business, em horário comercial. Por que importa: Quem pergunta e fica esperando acaba reservando em outro lugar. Responder rápido é o que mais depende da gente.
+- Respostas às mensagens quinzenais. Como medir: A cada envio, contar quantos respondem, quantos pedem data e quantos saem da lista. Por que importa: Serve para acertar o tom e a frequência sem encher a paciência de ninguém.
 
-**KPIs para Fundo de Funil**
-- Taxa de conversão de contato em reserva: Reservas fechadas divididas pelos contatos recebidos. Diz se a estrutura, o café e a oferta estão convencendo.
-- Percentual de reservas diretas: Meta de 50%. Cada reserva direta evita a comissão de 15% a 25% das OTAs.
-- Ocupação de domingo a quinta: Meta de 40%. Mede o objetivo principal do pacote Sossego de Meio de Semana.
-- Custo por reserva: Soma do investimento (criadores e mídia) dividida pelas reservas. Mostra se a parceria paga se paga.
+**Fundo de funil** (objetivo: fechar a reserva)
+- Contato que vira reserva. Como medir: Reservas fechadas no mês divididas pelos contatos que chegaram no mesmo mês. Por que importa: Diz se o quarto, o café e a oferta convencem. Se muita gente pergunta e pouca reserva, o problema está na oferta ou na resposta, e não no vídeo.
+- Reservas diretas (Meta: 50%). Como medir: Reservas feitas por WhatsApp, telefone e Instagram divididas pelo total de reservas. Por que importa: Cada reserva direta evita a comissão de 15% a 25% das plataformas e deixa o hóspede no nosso contato, pronto para voltar.
+- Ocupação de domingo a quinta (Meta: 40%). Como medir: Diárias vendidas de domingo a quinta divididas pelas diárias disponíveis nesses dias. Por que importa: É onde a pousada está mais vazia e quando o aposentado consegue viajar. Mede direto o pacote Sossego de Meio de Semana.
 
-**KPIs para Retenção**
-- Taxa de retorno: Hóspedes com segunda estadia, incluindo os que usam o Bilhete de Volta. Meta de duas estadias por ano por hóspede, que sustenta o tempo de vida do cliente.
-- Novas avaliações e nota no Google: O hóspede satisfeito avalia. Meta de manter 4,7 ou mais e somar novas avaliações depois de cada estadia.
-- Indicações recebidas: Quantos hóspedes vieram por indicação do programa Traga um amigo. Mede se o presente e o cantinho fotogênico geram boca a boca.
+**Retenção** (objetivo: fazer o hóspede voltar e indicar)
+- Taxa de retorno (Meta: 2 estadias por ano). Como medir: Hóspedes que voltam, incluindo quem usou o Bilhete de Volta, divididos pelos hóspedes do período. Por que importa: Segurar um hóspede custa menos que conquistar outro, e é isso que aumenta o tempo de vida do cliente.
+- Avaliações e nota no Google (Meta: nota 4,7 ou mais). Como medir: Quantas avaliações novas chegam depois de cada estadia e qual é a nota média. Por que importa: A avaliação nova é o que convence o próximo aposentado desconfiado a reservar.
+- Indicações recebidas. Como medir: Perguntar na reserva como conheceu a pousada e contar quem veio pelo Traga um amigo. Por que importa: Mostra se o presente na chegada e o cantinho de fotos fazem o hóspede falar da pousada para os outros.
 
-Fonte: metas dos objetivos SMART do plano. Linha de base a medir nos primeiros 60 dias, pois não há benchmark público de conversão e custo por reserva para pousadas (diagnóstico de mercado).
+Não existe número público de conversão e custo por reserva para pousadas. Nos 60 primeiros dias a gente mede a linha de base e só depois confirma as metas.
 
 ## 6f. Calendário estratégico (novembro e dezembro de 2026)
 
