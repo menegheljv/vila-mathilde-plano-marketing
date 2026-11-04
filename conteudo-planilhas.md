@@ -288,7 +288,6 @@ Obs.: os preços de Matilde que achei são antigos ou em dólar, então confirme
 
 ## Pontos a confirmar com o dono
 
-1. **A pousada está à venda?** O diagnóstico acha anúncios de venda (10 quartos, 750 m²). Se estiver à venda, o plano deve assumir isso abertamente.
-2. **Quantos quartos?** O briefing diz 6, as fontes públicas dizem 9 a 10.
-3. **Acessibilidade:** os quartos e as áreas comuns têm degraus? Isso muda a mensagem para o público idoso.
-4. **Histórico de ocupação e ticket médio:** necessário para calibrar as metas de ocupação e venda direta.
+1. **Quantos quartos?** O briefing diz 6, as fontes públicas dizem 9 a 10.
+2. **Acessibilidade:** os quartos e as áreas comuns têm degraus? Isso muda a mensagem para o público idoso.
+3. **Histórico de ocupação e ticket médio:** necessário para calibrar as metas de ocupação e venda direta.
