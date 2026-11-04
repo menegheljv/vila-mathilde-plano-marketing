@@ -19,7 +19,7 @@ Tudo abaixo é para colar nas cópias das planilhas. Os dados vêm do briefing e
 7. Quartos escuros e silenciosos, limpeza nota 4,9 no TripAdvisor
 
 ### FRAQUEZAS (internas)
-1. Presença digital contraditória: bio do Instagram diz "A VENDA EM MATILDE/ES"
+1. Presença digital contraditória: telefone e cadastros diferentes em cada canal
 2. Telefone fixo que não completa a ligação (relato no Google) e cadastros errados nas OTAs
 3. Dono sem tempo e sem prática para produzir conteúdo de qualidade
 4. Anúncios pagos sem oferta clara, sem chamada para o WhatsApp e sem medição
@@ -42,7 +42,7 @@ Tudo abaixo é para colar nas cópias das planilhas. Os dados vêm do briefing e
 3. Casa Matilde (9,4 a 9,6) e Fora do Ar (9,2), concorrentes diretos com notas altas
 4. Airbnb de casas para grupos e famílias no distrito
 5. Dependência de clima e chuva para a cachoeira
-6. Percepção de pousada fechada ou à venda
+6. Percepção de pousada fechada
 7. Matilde fora da rota de qualquer grande rodovia: é preciso sair da BR-101 e entrar em Alfredo Chaves de propósito
 
 ---
@@ -59,7 +59,7 @@ Tudo abaixo é para colar nas cópias das planilhas. Os dados vêm do briefing e
 | Ação específica | Corrigir bio do Instagram, Google Perfil da Empresa, telefone, WhatsApp Business e dados nas OTAs (café da manhã, número de quartos, check-in, fotos). |
 | Como será mensurado | Checklist de 100% dos canais corrigidos e nenhuma avaliação nova reclamando de contato. |
 | É alcançável? | Sim. Depende de ajustes cadastrais, não de verba, e o dono já tem acesso aos canais. |
-| Por que é relevante | Hoje o anúncio leva o cliente a canais que sinalizam "à venda" e "fechada". Sem isso, nenhum investimento em mídia converte. |
+| Por que é relevante | Hoje o anúncio leva o cliente a canais que sinalizam "fechada". Sem isso, nenhum investimento em mídia converte. |
 | Prazo | 30 dias. |
 | **Redação final** | **"Corrigir 100% dos pontos de contato digitais da pousada (Instagram, Google, WhatsApp e OTAs) em até 30 dias."** |
 
@@ -101,17 +101,18 @@ Concorrentes diretos de Matilde que valem citar na apresentação (do diagnósti
 
 ---
 
-## 4. Público atual e persona
+## 4. Público atual e público-alvo
 
 **Público atual:** ônibus de excursão que vão e voltam no mesmo dia. O turista aproveita a cachoeira, a estação e o túnel, mas não pernoita. A pousada não aparece no roteiro. O desafio é converter o visitante de um dia em lead e, depois, em hóspede.
 
-## 4b. Persona e posicionamento (hipótese minha, a validar com o dono)
+## 4b. Público-alvo e posicionamento (hipótese minha, a validar com o dono)
 
-**"Seu Antônio, 65 anos, aposentado."**
-- Capixaba da Grande Vitória (ou do interior), casado ou viúvo. Hoje viaja de excursão de ônibus e volta no mesmo dia.
-- Quer descanso, rede, café da roça, jardim e silêncio. Evita multidão, festa e escadaria exigente.
-- Pesquisa no Google, decide por indicação de filho ou amigo, usa WhatsApp e Facebook, e liga para tirar dúvida antes de reservar.
-- Tem flexibilidade de datas: viaja no meio da semana e fora de feriado.
+**Aposentados de terceira idade (60 anos ou mais).**
+- Capixabas da Grande Vitória (ou do interior). Hoje viajam de excursão de ônibus e voltam no mesmo dia.
+- Querem descanso, rede, café da roça, jardim e silêncio. Evitam multidão, festa e escadaria exigente.
+- Pesquisam no Google, decidem por indicação de filho ou amigo, usam WhatsApp e Facebook, e ligam para tirar dúvida antes de reservar.
+- Têm flexibilidade de datas: viajam no meio da semana e fora de feriado.
+- Público secundário (hipótese): filhos adultos, de 30 a 50 anos, que pesquisam e reservam para os pais.
 
 **USP:** "Seis quartos, uma rede com vista para as orquídeas e o café da roça. O sossego de Matilde, a uma caminhada da maior cachoeira do Espírito Santo, por um custo menor que o das outras serras capixabas."
 
@@ -223,15 +224,14 @@ Ninguém passa por Matilde de viagem. Para chegar, a pessoa precisa **sair da ro
 
 ## 6d. Antes (Prospecto): respostas do template
 
-**Público-alvo e persona**
+**Público-alvo**
 - PÚBLICO PRIMÁRIO: aposentados de terceira idade (60 anos ou mais) da Grande Vitória e do interior do ES, que buscam sossego e hoje viajam de excursão e voltam no mesmo dia.
 - PÚBLICO SECUNDÁRIO (hipótese): filhos adultos, de 30 a 50 anos, que pesquisam e reservam para os pais. Chegam pelo Reels e pelo TikTok.
-- PERSONA: Seu Antônio, 65 anos, aposentado, casado ou viúvo, mora na Grande Vitória, renda fixa e atento ao custo.
-- Objetivos: quer sossego, rede, jardim e café da roça, e conhecer a cachoeira sem pressa.
-- Dores: cansa de viajar horas para ficar poucas horas, evita multidão e escada exigente, desconfia de pagamento antecipado.
-- Como decide: Google e indicação de amigo ou filho; usa WhatsApp e Facebook mais que Instagram; quer falar com uma pessoa antes de reservar.
-- Frase dele: "Quero conhecer a cachoeira sem pressa e dormir em paz."
-- (Persona e público secundário são hipóteses a validar com o dono da pousada.)
+- PERFIL: aposentados casados ou viúvos, que moram na Grande Vitória, com renda fixa e atenção ao custo.
+- Objetivos: querem sossego, rede, jardim e café da roça, e conhecer a cachoeira sem pressa.
+- Dores: cansam de viajar horas para ficar poucas horas, evitam multidão e escada exigente, desconfiam de pagamento antecipado.
+- Como decide: Google e indicação de amigo ou filho; usam WhatsApp e Facebook mais que Instagram; querem falar com uma pessoa antes de reservar.
+- (O perfil do público e o público secundário são hipóteses a validar com o dono da pousada.)
 
 **Mensagem para o público-alvo (USP, linguagem e gatilhos)**
 - USP: "Seis quartos, uma rede com vista para as orquídeas e o café da roça. O sossego de Matilde, a uma caminhada da maior cachoeira do Espírito Santo, por um custo menor que o das outras serras capixabas."
@@ -274,7 +274,7 @@ Não existe número público de conversão e custo por reserva para pousadas. No
 
 ## 6f. Calendário estratégico (novembro e dezembro de 2026)
 
-O arquivo `08-calendario-estrategico.xlsx` traz 26 publicações, em dias variados da semana e sempre com conteúdo no sábado ou no domingo, de 3 de novembro a 31 de dezembro, com conteúdo útil para quem decide a viagem, com data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
+O arquivo `08-calendario-estrategico.xlsx` traz 71 publicações, em dias variados da semana, sempre com conteúdo no sábado ou no domingo e, em alguns dias, mais de uma publicação (o mesmo vídeo reaproveitado em outra rede). Nenhuma rede passa mais de 7 dias sem publicar. O período vai de 3 de novembro a 31 de dezembro, com conteúdo útil para quem decide a viagem, com data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
 
 ## Diferencial de custo (destino)
 
@@ -288,7 +288,7 @@ Obs.: os preços de Matilde que achei são antigos ou em dólar, então confirme
 
 ## Pontos a confirmar com o dono
 
-1. **A pousada está à venda?** O diagnóstico acha anúncios de venda (10 quartos, 750 m²). Não apague a bio sem alinhar. Se estiver à venda, o plano deve assumir isso abertamente.
+1. **A pousada está à venda?** O diagnóstico acha anúncios de venda (10 quartos, 750 m²). Se estiver à venda, o plano deve assumir isso abertamente.
 2. **Quantos quartos?** O briefing diz 6, as fontes públicas dizem 9 a 10.
 3. **Acessibilidade:** os quartos e as áreas comuns têm degraus? Isso muda a mensagem para o público idoso.
 4. **Histórico de ocupação e ticket médio:** necessário para calibrar as metas de ocupação e venda direta.

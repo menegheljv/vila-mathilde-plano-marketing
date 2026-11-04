@@ -15,10 +15,10 @@ Abra `index.html` no navegador (ou pela página do GitHub Pages). Use as setas d
 | `03-analise-competitiva.xlsx` | Visão geral da concorrência |
 | `04-pos-venda-cliente.xlsx` | Depois (Cliente): experiência, tempo de vida e indicações |
 | `05-durante-lead.xlsx` | Durante (Lead): captura, contato e conversão |
-| `06-antes-prospecto.xlsx` | Antes (Prospecto): público, persona, USP, linguagem, gatilhos e mídias |
+| `06-antes-prospecto.xlsx` | Antes (Prospecto): público, USP, linguagem, gatilhos e mídias |
 | `07-kpis.xlsx` | KPIs por etapa do funil, com justificativa |
 | `08-calendario-estrategico.xlsx` | Calendário de publicações de novembro e dezembro de 2026 |
-| `conteudo-planilhas.md` | Texto completo, persona, funil e pontos a confirmar |
+| `conteudo-planilhas.md` | Texto completo, público-alvo, funil e pontos a confirmar |
 
 ## Perfil oficial
 Instagram: @pousadavilamathilde_oficial
@@ -27,4 +27,4 @@ Instagram: @pousadavilamathilde_oficial
 Aposentado de terceira idade que busca sossego. Hoje a pousada recebe excursões de ônibus que vão e voltam no mesmo dia. O plano busca converter esse visitante em hóspede.
 
 ## Fontes
-Briefing da pousada, deck da aula e diagnóstico de mercado. Persona, metas absolutas e preços atuais de Matilde são hipóteses a validar com o dono.
+Briefing da pousada, deck da aula e diagnóstico de mercado. Público-alvo, metas absolutas e preços atuais de Matilde são hipóteses a validar com o dono.
