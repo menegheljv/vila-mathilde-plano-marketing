@@ -272,9 +272,40 @@ Ninguém passa por Matilde de viagem. Para chegar, a pessoa precisa **sair da ro
 
 Não existe número público de conversão e custo por reserva para pousadas. Nos 60 primeiros dias a gente mede a linha de base e só depois confirma as metas.
 
-## 6f. Calendário estratégico (novembro e dezembro de 2026)
+## 6f. Calendário estratégico (dezembro de 2026 a fevereiro de 2027)
 
-O arquivo `08-calendario-estrategico.xlsx` traz 153 publicações, com um Story do Instagram todos os dias, em dias variados da semana, sempre com conteúdo no sábado ou no domingo e, em alguns dias, mais de uma publicação (o mesmo vídeo reaproveitado em outra rede). Nenhuma rede passa mais de 7 dias sem publicar. O período vai de 3 de novembro a 31 de dezembro, com conteúdo útil para quem decide a viagem, com data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
+O arquivo `08-calendario-estrategico.xlsx` traz 236 publicações, com um Story do Instagram todos os dias, em dias variados da semana, sempre com conteúdo no sábado ou no domingo e, em alguns dias, mais de uma publicação (o mesmo vídeo reaproveitado em outra rede). Nenhuma rede passa mais de 7 dias sem publicar. O período vai de 1º de dezembro de 2026 a 28 de fevereiro de 2027:
+
+- **Dezembro:** Natal e Réveillon, com as datas de reserva e a última chamada.
+- **Janeiro e fevereiro:** a pauta fixa (café da roça, cachoeira, quartos, estação de 1910, como chegar, excursão) em duas rodadas, com "Janeiro em Matilde" e "Fevereiro em Matilde" abrindo cada mês e o Carnaval (6 a 10 de fevereiro) no lugar do feriado.
+
+Cada linha tem data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
+
+## 7. Gestão de comunidade
+
+### Etapa 1. Diretrizes de relacionamento
+- **Tom de voz:** amigável, familiar, acolhedor, receptivo e proativo, transmitindo proximidade e fazendo o cliente se sentir bem recebido.
+- **Linguagem:** leve e descontraída, com letras maiúsculas para destacar informações e emojis da identidade do local, como casinhas, folhas, flores e sorrisos.
+- **Diretrizes de relacionamento:** postura ética, respeitosa e atenciosa com todos os clientes, com disponibilidade para ajudar, ouvir e compreender cada situação, buscando oferecer soluções sempre que possível.
+- **Limites de atuação:** críticas à estrutura, negociação de valores e problemas com os serviços são tratados com atenção e, quando necessário, encaminhados aos responsáveis pela pousada.
+- **Objetivos:** fortalecer a fidelização, aumentar o reconhecimento e a lembrança da marca, criar conexões afetivas com o público e contribuir para o aumento das vendas.
+
+### Etapa 2. Simulação de situações de interação
+**Elogio**
+- Resposta 1: Muito obrigada, (nome da pessoa)! Ficamos muito felizes em saber que você gostou da experiência. Esperamos receber você novamente em breve! ❤️
+- Resposta 2: Obrigada pela confiança, (nome da pessoa)! É sempre um prazer ter você por aqui. Volte sempre! 🌷
+
+**Dúvida:** Olá, (nome da pessoa)! Temos, sim, chalés com varanda, e o valor da diária é X. Para conhecer melhor nossas opções e conferir outros detalhes, enviamos nosso catálogo pelo direct. Ficamos à disposição para ajudar! 🏡
+
+**Reclamação:** Sentimos muito que sua experiência não tenha sido como esperado, (nome da pessoa). Agradecemos por compartilhar sua percepção, pois ela é importante para que possamos identificar pontos de melhoria e oferecer uma experiência cada vez melhor. Enviamos uma mensagem pelo direct para entender melhor o ocorrido. Se puder, dê uma olhadinha por lá! 😊
+
+**Crítica pública:** Olá, (nome da pessoa)! Respeitamos sua opinião e acreditamos que o diálogo respeitoso é sempre o melhor caminho. Da mesma forma, esperamos que nossos posicionamentos sejam recebidos com o mesmo respeito. Estamos sempre abertos a conversar! 😊
+
+### Etapa 3. Protocolo de gestão de comunidade
+1. **Responder, ocultar, excluir ou denunciar:** todos os comentários recebem atenção e, sempre que possível, uma resposta. Opiniões, críticas e sugestões respeitosas são mantidas e respondidas com cordialidade. Xingamentos, ofensas, calúnias, ameaças ou discurso de ódio podem ser ocultados, excluídos e denunciados à plataforma, conforme a gravidade.
+2. **Reclamações e solicitações:** demonstrar acolhimento e disponibilidade para compreender o ocorrido. Questões particulares, problemas com serviços ou necessidade de informações detalhadas vão para o direct, para um atendimento mais próximo e reservado.
+3. **Situações de maior repercussão:** manter a calma, agir com respeito e evitar respostas impulsivas. Aguardar o momento adequado para responder, considerando os valores e o posicionamento da marca, com a equipe alinhada para uma comunicação clara, responsável e coerente.
+4. **Posicionamento oficial:** necessário em situações de grande repercussão, quando muitas pessoas pedem esclarecimentos ou quando o ocorrido afeta a pousada, seus arredores, clientes ou colaboradores, e diante de desrespeito que contrarie os valores da marca.
 
 ## Diferencial de custo (destino)
 
