@@ -274,12 +274,19 @@ Não existe número público de conversão e custo por reserva para pousadas. No
 
 ## 6f. Calendário estratégico (dezembro de 2026 a fevereiro de 2027)
 
-O arquivo `08-calendario-estrategico.xlsx` traz 236 publicações, com um Story do Instagram todos os dias, em dias variados da semana, sempre com conteúdo no sábado ou no domingo e, em alguns dias, mais de uma publicação (o mesmo vídeo reaproveitado em outra rede). Nenhuma rede passa mais de 7 dias sem publicar. O período vai de 1º de dezembro de 2026 a 28 de fevereiro de 2027:
+O arquivo `08-calendario-estrategico.xlsx` traz 286 publicações, com um Story do Instagram todos os dias, em dias variados da semana, sempre com conteúdo no sábado ou no domingo e, em alguns dias, mais de uma publicação (o mesmo conteúdo reaproveitado em outra rede). Nenhuma rede passa mais de 7 dias sem publicar. O período vai de 1º de dezembro de 2026 a 28 de fevereiro de 2027:
 
 - **Dezembro:** Natal e Réveillon, com as datas de reserva e a última chamada.
 - **Janeiro e fevereiro:** a pauta fixa (café da roça, cachoeira, quartos, estação de 1910, como chegar, excursão) em duas rodadas, com "Janeiro em Matilde" e "Fevereiro em Matilde" abrindo cada mês e o Carnaval (6 a 10 de fevereiro) no lugar do feriado.
 
-Cada linha tem data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. Foco em vídeo (Reels, TikTok e vídeos no Facebook), com Google Perfil e WhatsApp para fechar a reserva.
+Cada linha tem data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. O vídeo (Reels, TikTok e vídeos no Facebook) continua sendo a base, com Google Perfil e WhatsApp para fechar a reserva.
+
+**Peças para diversificar (50 linhas):**
+- **Carrossel comercial e informativo** no Instagram e no Facebook, 2 a 3 por semana de campanha: Bem-vindo à Vila Mathilde, Natal e Réveillon, Carnaval, traga um amigo, o que está incluso, como chegar, perguntas frequentes, regras da casa, como reservar e o que conhecer. Modelo pronto em `criativos/carrossel-bem-vindo`.
+- **Post estático** com fotos do local (cachoeira, varanda, portão, quarto, cantinho da foto) e do café da manhã. Modelo pronto em `criativos/post-estatico-cachoeira-vizinha`.
+- **E-mail marketing**, dois por mês: Natal e Réveillon, datas livres, janeiro de sossego, hóspedes que voltaram, Carnaval e março. Só para quem autorizou receber contato.
+- **Landing page** no ar em 1º de dezembro e atualizada para o verão (4/1) e para o Carnaval (2/2).
+- **Placas de sinalização e outdoor** (mídia exterior): placas instaladas em 5/12 e revisadas em 3/1 e 5/2, outdoor de 12/12 a 13/2 com troca de arte para o Carnaval em 16/1. Locais, valores e autorizações a definir com o dono.
 
 ## 7. Gestão de comunidade
 
