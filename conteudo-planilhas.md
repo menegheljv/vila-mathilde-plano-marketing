@@ -282,8 +282,8 @@ O arquivo `08-calendario-estrategico.xlsx` traz 286 publicações, com um Story 
 Cada linha tem data, rede, formato, pilar, tema, legenda, hashtags, responsável e status. O vídeo (Reels, TikTok e vídeos no Facebook) continua sendo a base, com Google Perfil e WhatsApp para fechar a reserva.
 
 **Peças para diversificar (50 linhas):**
-- **Carrossel comercial e informativo** no Instagram e no Facebook, 2 a 3 por semana de campanha: Bem-vindo à Vila Mathilde, Natal e Réveillon, Carnaval, traga um amigo, o que está incluso, como chegar, perguntas frequentes, regras da casa, como reservar e o que conhecer. Modelo pronto em `criativos/carrossel-bem-vindo`.
-- **Post estático** com fotos do local (cachoeira, varanda, portão, quarto, cantinho da foto) e do café da manhã. Modelo pronto em `criativos/post-estatico-cachoeira-vizinha`.
+- **Carrossel comercial e informativo** no Instagram e no Facebook, 2 a 3 por semana de campanha: Bem-vindo à Vila Mathilde, Natal e Réveillon, Carnaval, traga um amigo, o que está incluso, como chegar, perguntas frequentes, regras da casa, como reservar e o que conhecer. Carrossel pronto em `criativos/carrossel-bem-vindo` (4 lâminas).
+- **Post estático** com fotos do local (cachoeira, varanda, portão, quarto, cantinho da foto) e do café da manhã. Imagem pronta em `criativos/post-estatico-tranquilidade-tem-endereco`.
 - **E-mail marketing**, dois por mês: Natal e Réveillon, datas livres, janeiro de sossego, hóspedes que voltaram, Carnaval e março. Só para quem autorizou receber contato.
 - **Landing page** no ar em 1º de dezembro e atualizada para o verão (4/1) e para o Carnaval (2/2).
 - **Placas de sinalização e outdoor** (mídia exterior): placas instaladas em 5/12 e revisadas em 3/1 e 5/2, outdoor de 12/12 a 13/2 com troca de arte para o Carnaval em 16/1. Locais, valores e autorizações a definir com o dono.
