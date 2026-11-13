@@ -451,6 +451,17 @@ h1,h2,h3{letter-spacing:.06em}
 .carx-dots{display:flex;gap:8px}
 .carx-dots i{display:block;width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.3);transition:background .3s,scale .3s}
 .carx-dots i.on{background:var(--green);scale:1.25}
+/* ampliar imagem (lightbox) */
+#lb{position:fixed;inset:0;z-index:99999;background:rgba(5,14,9,.95);display:flex;align-items:center;justify-content:center;touch-action:pan-y}
+#lb[hidden]{display:none}
+#lb img{max-width:94vw;max-height:94vh;object-fit:contain;border-radius:10px;user-select:none;-webkit-user-drag:none;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.lb-btn,.lb-x{position:absolute;width:52px;height:52px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#2f5d3a;font:400 36px/48px 'Bootzy TM',sans-serif;cursor:pointer;box-shadow:0 3px 12px rgba(0,0,0,.4)}
+.lb-btn{top:50%;translate:0 -50%}.lb-prev{left:16px}.lb-next{right:16px}
+.lb-x{top:14px;right:16px;font-size:32px}
+.lb-btn[disabled]{opacity:0;pointer-events:none}.lb-btn[hidden]{display:none}
+.lb-count{position:absolute;bottom:12px;left:0;right:0;text-align:center;color:#fff;font-family:'Bootzy TM',sans-serif;letter-spacing:.08em;font-size:16px}
+.carx-zoom{position:absolute;top:10px;right:10px;z-index:2;width:38px;height:38px;border-radius:50%;border:0;background:rgba(255,255,255,.9);color:#2f5d3a;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,.35);transition:scale .25s}
+.carx-zoom:hover{scale:1.1}
 /* calendario com mais pecas por dia: chips compactos */
 .slide:has(.calwrap){padding-top:30px;padding-bottom:64px}
 .slide:has(.calwrap) h2{font-size:34px;margin-bottom:2px}
@@ -779,7 +790,7 @@ h1,h2,h3{letter-spacing:.06em}
 <!-- STORY EXEMPLO -->
 <section class="slide">
   <div class="grid reveal" style="grid-template-columns:330px 1fr;gap:56px;align-items:center">
-    <img src="criativos/story-cachoeira-engenheiro-reeve/story-720x1280.jpg" alt="Story da Pousada Vila Mathilde com três fotos da cachoeira Engenheiro Reeve, a frase Entrada gratuita e o botão Reserve já" style="height:572px;width:auto;max-width:100%;border-radius:26px;box-shadow:9px 11px 0 var(--green2);justify-self:center">
+    <img src="criativos/story-cachoeira-engenheiro-reeve/story-720x1280.jpg" data-zoom data-big="criativos/story-cachoeira-engenheiro-reeve/story-1080x1920.png" alt="Story da Pousada Vila Mathilde com três fotos da cachoeira Engenheiro Reeve, a frase Entrada gratuita e o botão Reserve já" style="height:572px;width:auto;max-width:100%;border-radius:26px;box-shadow:9px 11px 0 var(--green2);justify-self:center">
     <div>
       <div class="kicker">Exemplo de Story</div>
       <h2>Um Story pronto para a cachoeira Engenheiro Reeve</h2>
@@ -795,7 +806,7 @@ h1,h2,h3{letter-spacing:.06em}
 <!-- POST ESTATICO EXEMPLO -->
 <section class="slide">
   <div class="grid reveal" style="grid-template-columns:458px 1fr;gap:52px;align-items:center">
-    <img src="criativos/post-estatico-tranquilidade-tem-endereco/post-720x900.jpg" alt="Post estático da Pousada Vila Mathilde com a foto de uma floresta com raios de sol e a frase Entre montanhas, verde e cachoeiras, a tranquilidade tem endereço." style="height:572px;width:auto;max-width:100%;border-radius:18px;box-shadow:9px 11px 0 var(--green2);justify-self:center">
+    <img src="criativos/post-estatico-tranquilidade-tem-endereco/post-720x900.jpg" data-zoom data-big="criativos/post-estatico-tranquilidade-tem-endereco/post-1080x1350.jpg" alt="Post estático da Pousada Vila Mathilde com a foto de uma floresta com raios de sol e a frase Entre montanhas, verde e cachoeiras, a tranquilidade tem endereço." style="height:572px;width:auto;max-width:100%;border-radius:18px;box-shadow:9px 11px 0 var(--green2);justify-self:center">
     <div>
       <div class="kicker">Exemplo de post estático</div>
       <h2>Um post de uma foto só, com uma frase curta</h2>
@@ -813,7 +824,8 @@ h1,h2,h3{letter-spacing:.06em}
   <div class="grid reveal" style="grid-template-columns:470px 1fr;gap:48px;align-items:center">
     <div class="carx" id="carx" style="justify-self:center">
       <div class="carx-view">
-        <div class="carx-track"><img src="criativos/carrossel-bem-vindo/lamina-1-720x900.jpg" alt="Capa do carrossel: Esse cenário existe, e é mais perto do que você imagina" draggable="false"><img src="criativos/carrossel-bem-vindo/lamina-2-720x900.jpg" alt="Segunda lâmina: Bem-vindo à Pousada Vila Mathilde" draggable="false"><img src="criativos/carrossel-bem-vindo/lamina-3-720x900.jpg" alt="Terceira lâmina: Acordar com o canto de passarinho? Aqui é rotina" draggable="false"><img src="criativos/carrossel-bem-vindo/lamina-4-720x900.jpg" alt="Quarta lâmina: Reserve sua estadia na Pousada Vila Mathilde" draggable="false"></div>
+        <div class="carx-track"><img src="criativos/carrossel-bem-vindo/lamina-1-1080x1350.jpg" alt="Capa do carrossel: Esse cenário existe, e é mais perto do que você imagina" draggable="false"><img src="criativos/carrossel-bem-vindo/lamina-2-1080x1350.jpg" alt="Segunda lâmina: Bem-vindo à Pousada Vila Mathilde" draggable="false"><img src="criativos/carrossel-bem-vindo/lamina-3-1080x1350.jpg" alt="Terceira lâmina: Acordar com o canto de passarinho? Aqui é rotina" draggable="false"><img src="criativos/carrossel-bem-vindo/lamina-4-1080x1350.jpg" alt="Quarta lâmina: Reserve sua estadia na Pousada Vila Mathilde" draggable="false"></div>
+        <button class="carx-zoom" aria-label="Ampliar o carrossel" title="Ampliar"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg></button>
         <button class="carx-btn carx-prev" aria-label="Lâmina anterior">‹</button>
         <button class="carx-btn carx-next" aria-label="Próxima lâmina">›</button>
       </div>
@@ -919,6 +931,7 @@ h1,h2,h3{letter-spacing:.06em}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="train3d.js"></script>
+<div id="lb" hidden role="dialog" aria-label="Imagem ampliada"><button class="lb-x" aria-label="Fechar">×</button><button class="lb-btn lb-prev" aria-label="Anterior">‹</button><img alt="" draggable="false"><button class="lb-btn lb-next" aria-label="Próxima">›</button><div class="lb-count"></div></div>
 <script>
 document.querySelectorAll('.runner').forEach(r=>r.innerHTML=document.getElementById('train').innerHTML);
 const slides=[...document.querySelectorAll('.slide')],stage=document.getElementById('stage');
@@ -952,22 +965,36 @@ function go(n){
 document.getElementById('next').onclick=()=>go(cur+1);
 document.getElementById('prev').onclick=()=>go(cur-1);
 addEventListener('keydown',e=>{
+  const lbx=document.getElementById('lb');if(lbx&&!lbx.hidden)return;
   if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(cur+1)}
   if(['ArrowLeft','PageUp'].includes(e.key))go(cur-1);
   if(e.key==='Home')go(0);if(e.key==='End')go(slides.length-1);
 });
 let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX);
 addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>50)go(cur+(dx<0?1:-1));x0=null});
-(function(){const c=document.getElementById('carx');if(!c)return;
- const tr=c.querySelector('.carx-track'),dots=[...c.querySelectorAll('.carx-dots i')],cap=c.querySelector('.carx-cap'),pv=c.querySelector('.carx-prev'),nx=c.querySelector('.carx-next'),view=c.querySelector('.carx-view');
+(function(){
+ const lb=document.getElementById('lb'),lbi=lb.querySelector('img'),lbc=lb.querySelector('.lb-count'),lbp=lb.querySelector('.lb-prev'),lbn=lb.querySelector('.lb-next');
+ let list=[],k=0;
+ function lbShow(n){k=Math.max(0,Math.min(list.length-1,n));lbi.src=list[k];lbc.textContent=list.length>1?(k+1)+' / '+list.length:'';lbp.hidden=lbn.hidden=list.length<2;lbp.disabled=k===0;lbn.disabled=k===list.length-1}
+ function openLB(l,n){list=l;lb.hidden=false;lbShow(n)}
+ function closeLB(){lb.hidden=true;lbi.removeAttribute('src')}
+ lb.addEventListener('click',e=>{if(e.target===lb||e.target.closest('.lb-x'))closeLB()});
+ lbp.onclick=e=>{e.stopPropagation();lbShow(k-1)};lbn.onclick=e=>{e.stopPropagation();lbShow(k+1)};
+ addEventListener('keydown',e=>{if(lb.hidden)return;if(e.key==='Escape')closeLB();else if(e.key==='ArrowRight')lbShow(k+1);else if(e.key==='ArrowLeft')lbShow(k-1);else return;e.stopImmediatePropagation();e.preventDefault()},true);
+ let lx=null;lb.addEventListener('pointerdown',e=>{if(e.target.closest('button'))return;lx=e.clientX});
+ lb.addEventListener('pointerup',e=>{if(lx===null)return;const d=e.clientX-lx;lx=null;if(Math.abs(d)>50&&list.length>1)lbShow(k+(d<0?1:-1))});
+ document.querySelectorAll('img[data-zoom]').forEach(im=>{im.style.cursor='zoom-in';im.addEventListener('click',()=>openLB([new URL(im.dataset.big||im.getAttribute('src'),document.baseURI).href],0))});
+ const c=document.getElementById('carx');if(!c)return;
+ const tr=c.querySelector('.carx-track'),dots=[...c.querySelectorAll('.carx-dots i')],cap=c.querySelector('.carx-cap'),pv=c.querySelector('.carx-prev'),nx=c.querySelector('.carx-next'),view=c.querySelector('.carx-view'),zm=c.querySelector('.carx-zoom');
  const nomes=['capa','boas-vindas','quarto','chamada para reservar'];let i=0;
- function show(n){i=Math.max(0,Math.min(3,n));tr.style.transform='translateX('+(-i*432)+'px)';dots.forEach((d,k)=>d.classList.toggle('on',k===i));cap.textContent='Lâmina '+(i+1)+' de 4: '+nomes[i];pv.disabled=i===0;nx.disabled=i===3}
- pv.onclick=e=>{e.stopPropagation();show(i-1)};nx.onclick=e=>{e.stopPropagation();show(i+1)};
- dots.forEach((d,k)=>d.onclick=()=>show(k));
+ const fotos=()=>[...tr.querySelectorAll('img')].map(im=>im.currentSrc||im.src);
+ function show(n){i=Math.max(0,Math.min(3,n));tr.style.transform='translateX('+(-i*432)+'px)';dots.forEach((d,q)=>d.classList.toggle('on',q===i));cap.textContent='Lâmina '+(i+1)+' de 4: '+nomes[i];pv.disabled=i===0;nx.disabled=i===3}
+ pv.onclick=e=>{e.stopPropagation();show(i-1)};nx.onclick=e=>{e.stopPropagation();show(i+1)};zm.onclick=e=>{e.stopPropagation();openLB(fotos(),i)};
+ dots.forEach((d,q)=>d.onclick=()=>show(q));
  let sx=null,dx=0,moved=false;
- view.addEventListener('pointerdown',e=>{if(e.target.closest('.carx-btn'))return;sx=e.clientX;dx=0;moved=false;tr.style.transition='none';view.setPointerCapture(e.pointerId);e.stopPropagation()});
+ view.addEventListener('pointerdown',e=>{if(e.target.closest('button'))return;sx=e.clientX;dx=0;moved=false;tr.style.transition='none';view.setPointerCapture(e.pointerId);e.stopPropagation()});
  view.addEventListener('pointermove',e=>{if(sx===null)return;dx=e.clientX-sx;if(Math.abs(dx)>6)moved=true;let off=-i*432+dx;if((i===0&&dx>0)||(i===3&&dx<0))off=-i*432+dx*0.35;tr.style.transform='translateX('+off+'px)'});
- function fim(e){if(sx===null)return;tr.style.transition='';const d=dx;sx=null;if(Math.abs(d)>50)show(i+(d<0?1:-1));else{show(i);if(!moved)show(i<3?i+1:0)}dx=0;e&&e.stopPropagation()}
+ function fim(e){if(sx===null)return;tr.style.transition='';const d=dx;sx=null;if(Math.abs(d)>50)show(i+(d<0?1:-1));else{show(i);if(!moved)openLB(fotos(),i)}dx=0;e&&e.stopPropagation()}
  view.addEventListener('pointerup',fim);view.addEventListener('pointercancel',fim);
  view.addEventListener('dragstart',e=>e.preventDefault());
  show(0)})();
