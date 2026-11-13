@@ -438,6 +438,19 @@ h1,h2,h3{letter-spacing:.06em}
 .cd .chip{font-size:14px;padding:4px 8px}.chip b{font-size:11px}
 .cd .dn{font-size:15px!important}.cd .hol{font-size:11px}
 .dh{font-size:15px}
+/* carrossel navegavel */
+.carx{width:432px}
+.carx-view{position:relative;width:432px;height:540px;overflow:hidden;border-radius:18px;box-shadow:9px 11px 0 var(--green2);background:#0d2214;touch-action:pan-y;cursor:grab}
+.carx-track{display:flex;height:100%;transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.carx-track img{width:432px;height:540px;flex:none;display:block;object-fit:cover;user-select:none;-webkit-user-drag:none}
+.carx-btn{position:absolute;top:50%;translate:0 -50%;width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.9);color:#2f5d3a;font:400 30px/38px 'Bootzy TM',sans-serif;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.35);transition:opacity .25s,scale .25s}
+.carx-btn:hover{scale:1.08}
+.carx-prev{left:10px}.carx-next{right:10px}
+.carx-btn[disabled]{opacity:.0;pointer-events:none}
+.carx-foot{display:flex;align-items:center;justify-content:space-between;margin-top:14px;font-family:'Bootzy TM',sans-serif;font-size:15px;letter-spacing:.06em;color:#fff}
+.carx-dots{display:flex;gap:8px}
+.carx-dots i{display:block;width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.3);transition:background .3s,scale .3s}
+.carx-dots i.on{background:var(--green);scale:1.25}
 /* calendario com mais pecas por dia: chips compactos */
 .slide:has(.calwrap){padding-top:30px;padding-bottom:64px}
 .slide:has(.calwrap) h2{font-size:34px;margin-bottom:2px}
@@ -797,12 +810,14 @@ h1,h2,h3{letter-spacing:.06em}
 
 <!-- CARROSSEL EXEMPLO -->
 <section class="slide">
-  <div class="grid reveal" style="grid-template-columns:430px 1fr;gap:52px;align-items:center">
-    <div style="position:relative;height:572px;width:430px;justify-self:center">
-      <img src="criativos/carrossel-bem-vindo/lamina-4-720x900.jpg" alt="Quarta lâmina: Reserve sua estadia" style="position:absolute;left:111px;top:6px;height:400px;border-radius:16px;box-shadow:6px 8px 0 var(--green2);rotate:4deg">
-      <img src="criativos/carrossel-bem-vindo/lamina-3-720x900.jpg" alt="Terceira lâmina: Acordar com o canto de passarinho" style="position:absolute;left:74px;top:54px;height:400px;border-radius:16px;box-shadow:6px 8px 0 var(--green2);rotate:1.5deg">
-      <img src="criativos/carrossel-bem-vindo/lamina-2-720x900.jpg" alt="Segunda lâmina: Bem-vindo à Pousada Vila Mathilde" style="position:absolute;left:37px;top:102px;height:400px;border-radius:16px;box-shadow:6px 8px 0 var(--green2);rotate:-1.5deg">
-      <img src="criativos/carrossel-bem-vindo/lamina-1-720x900.jpg" alt="Capa do carrossel: Esse cenário existe" style="position:absolute;left:0;top:150px;height:400px;border-radius:16px;box-shadow:6px 8px 0 var(--green2);rotate:-4deg">
+  <div class="grid reveal" style="grid-template-columns:470px 1fr;gap:48px;align-items:center">
+    <div class="carx" id="carx" style="justify-self:center">
+      <div class="carx-view">
+        <div class="carx-track"><img src="criativos/carrossel-bem-vindo/lamina-1-720x900.jpg" alt="Capa do carrossel: Esse cenário existe, e é mais perto do que você imagina" draggable="false"><img src="criativos/carrossel-bem-vindo/lamina-2-720x900.jpg" alt="Segunda lâmina: Bem-vindo à Pousada Vila Mathilde" draggable="false"><img src="criativos/carrossel-bem-vindo/lamina-3-720x900.jpg" alt="Terceira lâmina: Acordar com o canto de passarinho? Aqui é rotina" draggable="false"><img src="criativos/carrossel-bem-vindo/lamina-4-720x900.jpg" alt="Quarta lâmina: Reserve sua estadia na Pousada Vila Mathilde" draggable="false"></div>
+        <button class="carx-btn carx-prev" aria-label="Lâmina anterior">‹</button>
+        <button class="carx-btn carx-next" aria-label="Próxima lâmina">›</button>
+      </div>
+      <div class="carx-foot"><span class="carx-dots"><i class="on"></i><i></i><i></i><i></i></span><span class="carx-cap">Lâmina 1 de 4: capa</span></div>
     </div>
     <div>
       <div class="kicker">Exemplo de carrossel</div>
@@ -943,6 +958,19 @@ addEventListener('keydown',e=>{
 });
 let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX);
 addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>50)go(cur+(dx<0?1:-1));x0=null});
+(function(){const c=document.getElementById('carx');if(!c)return;
+ const tr=c.querySelector('.carx-track'),dots=[...c.querySelectorAll('.carx-dots i')],cap=c.querySelector('.carx-cap'),pv=c.querySelector('.carx-prev'),nx=c.querySelector('.carx-next'),view=c.querySelector('.carx-view');
+ const nomes=['capa','boas-vindas','quarto','chamada para reservar'];let i=0;
+ function show(n){i=Math.max(0,Math.min(3,n));tr.style.transform='translateX('+(-i*432)+'px)';dots.forEach((d,k)=>d.classList.toggle('on',k===i));cap.textContent='Lâmina '+(i+1)+' de 4: '+nomes[i];pv.disabled=i===0;nx.disabled=i===3}
+ pv.onclick=e=>{e.stopPropagation();show(i-1)};nx.onclick=e=>{e.stopPropagation();show(i+1)};
+ dots.forEach((d,k)=>d.onclick=()=>show(k));
+ let sx=null,dx=0,moved=false;
+ view.addEventListener('pointerdown',e=>{if(e.target.closest('.carx-btn'))return;sx=e.clientX;dx=0;moved=false;tr.style.transition='none';view.setPointerCapture(e.pointerId);e.stopPropagation()});
+ view.addEventListener('pointermove',e=>{if(sx===null)return;dx=e.clientX-sx;if(Math.abs(dx)>6)moved=true;let off=-i*432+dx;if((i===0&&dx>0)||(i===3&&dx<0))off=-i*432+dx*0.35;tr.style.transform='translateX('+off+'px)'});
+ function fim(e){if(sx===null)return;tr.style.transition='';const d=dx;sx=null;if(Math.abs(d)>50)show(i+(d<0?1:-1));else{show(i);if(!moved)show(i<3?i+1:0)}dx=0;e&&e.stopPropagation()}
+ view.addEventListener('pointerup',fim);view.addEventListener('pointercancel',fim);
+ view.addEventListener('dragstart',e=>e.preventDefault());
+ show(0)})();
 document.querySelectorAll('.sq').forEach(q=>q.onclick=()=>q.classList.toggle('open'));
 document.querySelectorAll('.chip[data-t]').forEach(c=>c.addEventListener('click',()=>{const d=c.dataset,g=document.getElementById('pGrid');
  const f=[['Data',d.d],['Dia da semana',d.w],['Rede',d.r],['Formato',d.f],['Pilar de conteúdo',d.p],['Responsável',d.o],['Status',d.s],['Hashtags',d.h],['Tema / Título',d.t,'half'],['Legenda (copy)',d.c,'wide'],['Link / Observações',d.l+' (link a preencher após publicar)','wide']];
